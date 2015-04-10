@@ -10,6 +10,7 @@ import java.util.*;
  *
  */
 public abstract class Chunk {
+	public static final String EOL = System.getProperty("line.separator");
 	protected ArrayList<Chunk> children;
 	
 	public Chunk() {

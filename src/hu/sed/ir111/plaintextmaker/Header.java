@@ -15,7 +15,7 @@ public class Header extends Chunk {
 		int len;
 		sb.append(super.toString());
 		len = sb.length();
-		sb.append(System.getProperty("line.separator"));
+		sb.append(EOL);
 		sb.append(StringUtils.repeat(kind == HeaderKind.h1 ? "=" : "-", len));
 		
 		return sb.toString();

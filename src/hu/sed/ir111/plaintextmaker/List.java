@@ -3,8 +3,6 @@ package hu.sed.ir111.plaintextmaker;
 public class List extends Chunk {
 	private ListKind kind;
 	
-	private String[] romaiak = new String[] {"i", "ii", "iii"};
-	
 	public List(ListKind kind) {
 		super();
 		this.kind = kind;
@@ -12,9 +10,35 @@ public class List extends Chunk {
 	
 	public String toString() {
 		int i = 1;
+		String ret = "";
+		for(Chunk child : children) {
+			switch(kind) {
+				case kisRomaiSzamozott:
+					ret += makeRomanNumber(i).toLowerCase();
+					break;
+				case arabSzamozott:
+					ret += i;
+					break;
+				case kisbetus:
+					ret += 'a' + i;
+					break;
+				case nagyRomaiSzamozott:
+					makeRomanNumber(i).toUpperCase();
+					break;
+				case nagybetus:
+					ret += 'A' + i;
+					break;
+				default:
+					break;
+			}
+			ret += ' ' + child.toString() + EOL;
+			i++;
+		}
+		
+		return ret;
 	}
 	
-	private String getRomai(int number){
+	private static String makeRomanNumber(int number){
 		String result = "";
 		while (number>=100){
 			result+="C";
