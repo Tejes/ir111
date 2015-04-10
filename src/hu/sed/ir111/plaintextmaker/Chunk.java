@@ -21,6 +21,10 @@ public abstract class Chunk {
 		children.add(chunk);
 	}
 	
+	public void addChildren(Collection<Chunk> children) {
+		this.children.addAll(children);
+	}
+	
 	public String toString() {
 		StringBuilder sb = new StringBuilder();
 		for(Chunk child : children) {
