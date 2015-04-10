@@ -6,13 +6,11 @@ public class Emphatic extends Chunk {
 	}
 	
 	public Emphatic(String text) {
-		this();
-		addChild(new PlainText(text));
+		super(text);
 	}
 	
 	public Emphatic(Chunk child) {
-		this();
-		addChild(child);
+		super(child);
 	}
 	
 	public String toString() {

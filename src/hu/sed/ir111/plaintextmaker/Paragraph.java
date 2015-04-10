@@ -5,6 +5,14 @@ public class Paragraph extends Chunk {
 		super();
 	}
 	
+	public Paragraph(String text) {
+		super(text);
+	}
+	
+	public Paragraph(Chunk child) {
+		super(child);
+	}
+	
 	public String toString() {
 		return EOL + super.toString();
 	}

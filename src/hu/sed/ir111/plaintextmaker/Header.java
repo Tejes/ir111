@@ -10,6 +10,16 @@ public class Header extends Chunk {
 		this.kind = kind;
 	}
 	
+	public Header(HeaderKind kind, String text) {
+		super(text);
+		this.kind = kind;
+	}
+	
+	public Header(HeaderKind kind, Chunk child) {
+		super(child);
+		this.kind = kind;
+	}
+	
 	public String toString() {
 		StringBuilder sb = new StringBuilder();
 		int len;

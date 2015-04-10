@@ -17,6 +17,16 @@ public abstract class Chunk {
 		children = new ArrayList<Chunk>();
 	}
 	
+	public Chunk(String text) {
+		this();
+		addChild(new PlainText(text));
+	}
+	
+	public Chunk(Chunk child) {
+		this();
+		addChild(child);
+	}
+	
 	public void addChild(Chunk chunk) {
 		children.add(chunk);
 	}
