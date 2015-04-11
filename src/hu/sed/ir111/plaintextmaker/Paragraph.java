@@ -14,6 +14,6 @@ public class Paragraph extends Chunk {
 	}
 	
 	public String toString() {
-		return EOL + super.toString();
+		return EOL + super.toString() + EOL;
 	}
 }

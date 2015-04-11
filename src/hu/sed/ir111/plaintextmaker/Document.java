@@ -2,11 +2,16 @@ package hu.sed.ir111.plaintextmaker;
 import java.io.IOException;
 import java.util.*;
 
+/**
+ * Represents a plain text document we are building
+ * @author keletim
+ *
+ */
 public class Document {
-	private ArrayList<Chunk> chunks;
+	private LinkedList<Chunk> chunks;
 	
 	public Document() {
-		chunks = new ArrayList<Chunk>();
+		chunks = new LinkedList<Chunk>();
 	}
 	
 	public void addChunk(Chunk chunk) {
@@ -27,5 +32,6 @@ public class Document {
 		for(Chunk chunk : chunks) {
 			fw.write(chunk.toString());
 		}
+		fw.flush();
 	}
 }

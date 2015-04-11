@@ -1,6 +1,12 @@
 package hu.sed.ir111.plaintextmaker;
 
+/**
+ * Represents an emphatised piece of text, like bold, italic or underlined. Prints out *text* in default  
+ * @author keletim
+ *
+ */
 public class Emphatic extends Chunk {
+	private String left = "*", right = "*";
 	public Emphatic() {
 		super();
 	}
@@ -13,7 +19,17 @@ public class Emphatic extends Chunk {
 		super(child);
 	}
 	
+	/**
+	 * Change the left and right delimiters from the default *
+	 * @param left
+	 * @param right
+	 */
+	public void setDelimiters(String left, String right) {
+		this.left = left;
+		this.right = right;
+	}
+	
 	public String toString() {
-		return '*' + super.toString() + '*';
+		return left + super.toString() + right;
 	}
 }

@@ -6,15 +6,16 @@ package hu.sed.ir111.plaintextmaker;
 import java.util.*;
 
 /**
+ * Represents a piece of text, can have multiple children
  * @author keletim
  *
  */
 public abstract class Chunk {
 	public static final String EOL = System.getProperty("line.separator");
-	protected ArrayList<Chunk> children;
+	protected LinkedList<Chunk> children;
 	
 	public Chunk() {
-		children = new ArrayList<Chunk>();
+		children = new LinkedList<Chunk>();
 	}
 	
 	public Chunk(String text) {

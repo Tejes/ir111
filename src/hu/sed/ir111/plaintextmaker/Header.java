@@ -2,6 +2,11 @@ package hu.sed.ir111.plaintextmaker;
 
 import org.apache.commons.lang3.*;
 
+/**
+ * Represents a single line header text. It will be underlined with === or --- depending on the HeaderKind passed in
+ * @author keletim
+ *
+ */
 public class Header extends Chunk {
 	private HeaderKind kind;
 	
@@ -27,7 +32,7 @@ public class Header extends Chunk {
 		len = sb.length();
 		sb.append(EOL);
 		sb.append(StringUtils.repeat(kind == HeaderKind.h1 ? "=" : "-", len));
-		
+		sb.append(EOL);
 		return sb.toString();
 	}
 }

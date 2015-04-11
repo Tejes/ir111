@@ -1,5 +1,9 @@
 package hu.sed.ir111.plaintextmaker;
 
+import java.util.Iterator;
+
+import org.apache.commons.lang3.StringUtils;
+
 public class List extends Chunk {
 	private ListKind kind;
 	
@@ -10,32 +14,58 @@ public class List extends Chunk {
 	
 	public String toString() {
 		int i = 1;
-		String ret = "";
+		StringBuilder sb = new StringBuilder();
+		String roman;
+		int maxLength = 0;
+		
+		if(kind == ListKind.LOWERROMAN || kind == ListKind.UPPERROMAN) {
+			for (Iterator<Chunk> iterator = children.iterator(); iterator.hasNext();) {
+				iterator.next();
+				roman = makeRomanNumber(i++);
+				if(maxLength < roman.length())
+					maxLength = roman.length();
+			}
+			i = 1;
+		}
+		else if(kind == ListKind.NUMERAL) {
+			maxLength = (int)Math.log10(children.size()) + 1;
+		}
+		
 		for(Chunk child : children) {
 			switch(kind) {
-				case kisRomaiSzamozott:
-					ret += makeRomanNumber(i).toLowerCase();
+				case LOWERROMAN:
+					roman = makeRomanNumber(i).toLowerCase();
+					sb.append(StringUtils.repeat(' ', maxLength - roman.length()));
+					sb.append(roman);
+					sb.append('.');			
 					break;
-				case arabSzamozott:
-					ret += i;
+				case UPPERROMAN:
+					roman = makeRomanNumber(i).toUpperCase();
+					sb.append(StringUtils.repeat(' ', maxLength - roman.length()));
+					sb.append(roman);
+					sb.append('.');	
 					break;
-				case kisbetus:
-					ret += 'a' + i;
+				case NUMERAL:
+					sb.append(StringUtils.repeat(' ', maxLength - String.valueOf(i).length()));
+					sb.append(i);
+					sb.append('.');
 					break;
-				case nagyRomaiSzamozott:
-					makeRomanNumber(i).toUpperCase();
+				case LOWERALPHABETIC:
+					sb.append((char)('a' + i - 1));
+					sb.append(')');
 					break;
-				case nagybetus:
-					ret += 'A' + i;
+				case UPPERALPHABETIC:
+					sb.append((char)('A' + i - 1));
+					sb.append(')');
 					break;
 				default:
 					break;
 			}
-			ret += ' ' + child.toString() + EOL;
+			sb.append(' ' + child.toString() + EOL);
 			i++;
 		}
 		
-		return ret;
+		return sb.toString();
 	}
 	
 	private static String makeRomanNumber(int number){
@@ -78,6 +108,4 @@ public class List extends Chunk {
 		}
 		return result;
 	}
-	
-	
 }
