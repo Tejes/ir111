@@ -58,6 +58,9 @@ public class List extends Chunk {
 					sb.append((char)('A' + i - 1));
 					sb.append(')');
 					break;
+				case ASTERISK:
+					sb.append('*');
+					break;
 				default:
 					break;
 			}

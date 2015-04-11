@@ -32,6 +32,10 @@ public abstract class Chunk {
 		children.add(chunk);
 	}
 	
+	public void addChild(String plaintext) {
+		addChild(new PlainText(plaintext));
+	}
+	
 	public void addChildren(Collection<Chunk> children) {
 		this.children.addAll(children);
 	}

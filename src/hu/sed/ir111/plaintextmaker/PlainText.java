@@ -13,6 +13,6 @@ public class PlainText extends Chunk {
 	}
 	
 	public void addChild() {
-		throw new IllegalStateException("PlainText objektum nem tartalmazhat gyerekeket");
+		throw new UnsupportedOperationException("PlainText objektum nem tartalmazhat gyerekeket");
 	}
 }

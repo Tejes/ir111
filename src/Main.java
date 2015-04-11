@@ -20,19 +20,25 @@ public class Main {
 		doc.addChunk(new Header(HeaderKind.h1, "Ez egy címsor"));
 		doc.addChunk(new Paragraph("Ez meg itt egy random példa bekezdés, aminek nincs értelme, csak az a lényeg, hogy hosszú legyen. Hát, nem biztos, hogy sikerült. De azért próbálkozni szabad, nem? De. Nahátakkormeg. Nézd meg, egész jól halad. Már van vagy 200 karakter. Azért az már nem semmi egy bekezdés."));
 		doc.addChunk(new Paragraph(new Header(HeaderKind.h2, "TODO lista:")));
-		List list = new List(ListKind.NUMERAL);
+		List list = new List(ListKind.ASTERISK);
 		doc.addChunk(list);
-		list.addChild(new PlainText("Követelményspecifikáció"));
-		list.addChild(new PlainText("HTML parser"));
-		list.addChild(new PlainText("MarkDown parser"));
-		list.addChild(new PlainText("Wikitext parser"));
-		list.addChild(new PlainText("GUI"));
+		list.addChild("Követelményspecifikáció");
+		list.addChild("HTML parser");
+		list.addChild("MarkDown parser");
+		list.addChild("Wikitext parser");
+		list.addChild("GUI");
 		Paragraph par = new Paragraph("Ez meg egy újabb paragrafus a lista után, amiben a ");
 		par.addChild(new Link("https://www.google.hu", "link"));
-		par.addChild(new PlainText(" szón van egy hivatkozás."));
+		par.addChild(" szón van ");
+		par.addChild(new Emphatic("egy"));
+		par.addChild(" hivatkozás.");
 		doc.addChunk(par);
 		doc.save(fw);
 		fw.close();
+		
+		fw = new FileWriter("out2.txt");
+		doc = new Document();
+		HtmlReader parser = new HtmlReader(doc, "test.html");
 	}
     
 }
