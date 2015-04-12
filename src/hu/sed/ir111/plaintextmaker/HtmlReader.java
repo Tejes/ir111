@@ -25,21 +25,30 @@ public class HtmlReader extends Reader {
 			@Override
 			public void head(Node node, int depth) {
 				Chunk chunk;
-				switch(node.nodeName()) {
-					case "b":
-					case "i":
-					case "u":
-						chunk = new Emphatic();
-						break;
-					default:
-						return;
+				System.out.println(node);
+				if(node instanceof TextNode) {
+					chunk = new PlainText(((TextNode) node).text());
+				}
+				else {
+					switch(node.nodeName()) {
+						case "b":
+						case "i":
+						case "u":
+							chunk = new Emphatic();
+							break;
+						default:
+							return;
+					}
 				}
 				map.put(node, chunk);
 				if(node.parent() == null) {
-					
+					doc.addChunk(chunk);
 				}
 				else if(!map.containsKey(node.parent())) {
 					
+				}
+				else {
+					map.get(node.parent()).addChild(chunk);
 				}
 			}
 		});
