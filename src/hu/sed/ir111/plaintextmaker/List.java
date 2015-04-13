@@ -61,6 +61,9 @@ public class List extends Chunk {
 				case ASTERISK:
 					sb.append('*');
 					break;
+				case NONE:
+					sb.append(' ');
+					break;
 				default:
 					break;
 			}
@@ -110,5 +113,9 @@ public class List extends Chunk {
 			number-=1;
 		}
 		return result;
+	}
+
+	public void setKind(ListKind kind) {
+		this.kind = kind;
 	}
 }

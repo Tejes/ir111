@@ -23,7 +23,6 @@ public abstract class Parser {
 		jsoupDoc.traverse(new NodeVisitor() {			
 			@Override
 			public void tail(Node node, int depth) {
-				// TODO Auto-generated method stub
 				
 			}			
 			@Override
@@ -31,10 +30,53 @@ public abstract class Parser {
 				Chunk chunk;
 				System.out.println(node);
 				if(node instanceof TextNode) {
+					if(((TextNode) node).text().equals(" "))
+						return;
 					chunk = new PlainText(((TextNode) node).text());
 				}
 				else {
 					switch(node.nodeName()) {
+						case "title":
+							chunk = new Header(HeaderKind.TITLE);
+							break;
+						case "h1":
+							chunk = new Header(HeaderKind.H1);
+							break;
+						case "h2":
+						case "h3":
+						case "h4":
+						case "h5":
+						case "h6":
+							chunk = new Header(HeaderKind.H2);
+							break;
+						case "p":
+							chunk = new Paragraph();
+							break;
+						case "ul":
+							chunk = new List(ListKind.ASTERISK);
+							
+							if(!node.attr("style").isEmpty()) {
+								((List)chunk).setKind(extractListStyle(node.attr("style")));
+							}
+							else if(!node.attr("type").isEmpty()) {
+								((List)chunk).setKind(extractListStyle(node.attr("type")));
+								switch(node.attr("type")) {
+									case "1": ((List)chunk).setKind(ListKind.NUMERAL); break;
+									case "a": ((List)chunk).setKind(ListKind.LOWERCASE); break;
+									case "A": ((List)chunk).setKind(ListKind.UPPERCASE); break;
+									case "i": ((List)chunk).setKind(ListKind.LOWER_ROMAN); break;
+									case "I": ((List)chunk).setKind(ListKind.UPPER_ROMAN); break;
+									default: ((List)chunk).setKind(ListKind.NUMERAL); break;
+								}
+							}
+								
+							break;
+						case "li":
+							chunk = new Chunk();
+							break;
+						case "a":
+							chunk = new Link(node.attr("href"));
+							break;
 						case "b":
 						case "i":
 						case "u":
@@ -48,8 +90,11 @@ public abstract class Parser {
 				if(node.parent() == null) {
 					document.addChunk(chunk);
 				}
-				else if(!map.containsKey(node.parent())) {
-					
+				else if(!map.containsKey(node.parent())) {  //TODO
+					while(!map.containsKey(node) && node != null) {
+						node = node.parent();
+					}
+					document.addChunk(chunk);
 				}
 				else {
 					map.get(node.parent()).addChild(chunk);
@@ -93,5 +138,22 @@ public abstract class Parser {
 		markupParser.setMarkupLanguage(new MarkdownLanguage());
 		
 		return parseHtml(markupParser.parseToHtml(mdContent));
+	}
+	
+	private static ListKind extractListStyle(String str) {
+		//kicsit favágó, de ez van
+		if(str.contains("square") || str.contains("disc") || str.contains("circle"))
+			return ListKind.ASTERISK;
+		if(str.contains("lower-alpha") || str.contains("lower-greek") || str.contains("lower-latin"))
+			return ListKind.LOWERCASE;
+		if(str.contains("lower-roman"))
+			return ListKind.LOWER_ROMAN;
+		if(str.contains("upper-alpha") || str.contains("upper-latin"))
+			return ListKind.UPPERCASE;
+		if(str.contains("upper-roman"))
+			return ListKind.UPPER_ROMAN;
+		if(str.contains("list-style-type: none") || str.contains("listy-style: none") || str.contains("list-style:none") || str.contains("list-style-type:none") || str.equals("none"))
+			return ListKind.NONE;
+		return ListKind.NUMERAL;  //alapeset: minden szám és ha nincs megadva semmi
 	}
 }

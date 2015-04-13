@@ -1,5 +1,6 @@
 import java.io.FileWriter;
 import java.io.IOException;
+import java.nio.file.Paths;
 
 import hu.sed.ir111.plaintextmaker.*;
 
@@ -38,7 +39,7 @@ public class Main {
 		fw.close();
 		
 		fw = new FileWriter("out2.txt");
-		doc = Parser.parseHtml("test.html");
+		doc = Parser.parseHtml(Paths.get("test.html"));
 		doc.save(fw);
 		fw.flush();
 		fw.close();
