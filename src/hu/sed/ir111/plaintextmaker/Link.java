@@ -1,7 +1,7 @@
 package hu.sed.ir111.plaintextmaker;
 
 /**
- * Represents hiperlinks. The link is printed in [] brackets after the text
+ * Represents hiperlinks. The link is printed in <> brackets after the text
  * @author keletim
  *
  */
@@ -24,6 +24,6 @@ public class Link extends Chunk {
 	}
 	
 	public String toString() {
-		return super.toString() + " [" + href + "]";
+		return super.toString() + " <" + href + ">";
 	}
 }

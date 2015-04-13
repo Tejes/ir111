@@ -12,6 +12,7 @@ import java.util.*;
  */
 public abstract class Chunk {
 	public static final String EOL = System.getProperty("line.separator");
+	public static final int COLUMN_WIDTH = 80;
 	protected LinkedList<Chunk> children;
 	
 	public Chunk() {

@@ -17,9 +17,10 @@ public class Main {
 	public static void main(String[] args) throws IOException {
 		FileWriter fw = new FileWriter("out.txt");
 		Document doc = new Document();
-		doc.addChunk(new Header(HeaderKind.h1, "Ez egy címsor"));
+		doc.addChunk(new Header(HeaderKind.TITLE, "Fõcím"));
+		doc.addChunk(new Header(HeaderKind.H1, "Ez egy címsor"));
 		doc.addChunk(new Paragraph("Ez meg itt egy random példa bekezdés, aminek nincs értelme, csak az a lényeg, hogy hosszú legyen. Hát, nem biztos, hogy sikerült. De azért próbálkozni szabad, nem? De. Nahátakkormeg. Nézd meg, egész jól halad. Már van vagy 200 karakter. Azért az már nem semmi egy bekezdés."));
-		doc.addChunk(new Paragraph(new Header(HeaderKind.h2, "TODO lista:")));
+		doc.addChunk(new Paragraph(new Header(HeaderKind.H2, "TODO lista:")));
 		List list = new List(ListKind.ASTERISK);
 		doc.addChunk(list);
 		list.addChild("Követelményspecifikáció");
@@ -37,8 +38,10 @@ public class Main {
 		fw.close();
 		
 		fw = new FileWriter("out2.txt");
-		doc = new Document();
-		HtmlReader parser = new HtmlReader(doc, "test.html");
+		doc = Parser.parseHtml("test.html");
+		doc.save(fw);
+		fw.flush();
+		fw.close();
 	}
     
 }

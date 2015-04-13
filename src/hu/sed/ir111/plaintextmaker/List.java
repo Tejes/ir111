@@ -18,7 +18,7 @@ public class List extends Chunk {
 		String roman;
 		int maxLength = 0;
 		
-		if(kind == ListKind.LOWERROMAN || kind == ListKind.UPPERROMAN) {
+		if(kind == ListKind.LOWER_ROMAN || kind == ListKind.UPPER_ROMAN) {
 			for (Iterator<Chunk> iterator = children.iterator(); iterator.hasNext();) {
 				iterator.next();
 				roman = makeRomanNumber(i++);
@@ -33,13 +33,13 @@ public class List extends Chunk {
 		
 		for(Chunk child : children) {
 			switch(kind) {
-				case LOWERROMAN:
+				case LOWER_ROMAN:
 					roman = makeRomanNumber(i).toLowerCase();
 					sb.append(StringUtils.repeat(' ', maxLength - roman.length()));
 					sb.append(roman);
 					sb.append('.');			
 					break;
-				case UPPERROMAN:
+				case UPPER_ROMAN:
 					roman = makeRomanNumber(i).toUpperCase();
 					sb.append(StringUtils.repeat(' ', maxLength - roman.length()));
 					sb.append(roman);
@@ -50,11 +50,11 @@ public class List extends Chunk {
 					sb.append(i);
 					sb.append('.');
 					break;
-				case LOWERALPHABETIC:
+				case LOWERCASE:
 					sb.append((char)('a' + i - 1));
 					sb.append(')');
 					break;
-				case UPPERALPHABETIC:
+				case UPPERCASE:
 					sb.append((char)('A' + i - 1));
 					sb.append(')');
 					break;
