@@ -1,13 +1,12 @@
 package hu.sed.ir111.plaintextmaker;
 
-import java.io.File;
-import java.io.FileWriter;
 import java.io.IOException;
 import java.nio.file.Files;
-import java.nio.file.Paths;
+import java.nio.file.Path;
 import java.util.HashMap;
 
 import org.eclipse.mylyn.wikitext.core.parser.MarkupParser;
+import org.eclipse.mylyn.wikitext.markdown.core.MarkdownLanguage;
 import org.eclipse.mylyn.wikitext.mediawiki.core.MediaWikiLanguage;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Node;
@@ -16,10 +15,10 @@ import org.jsoup.select.NodeVisitor;
 
 public abstract class Parser {
 	
-	public static Document parseHtml(String fileName) throws IOException {
+	public static Document parseHtml(String html) throws IOException {
 		final Document document = new Document();
 		final HashMap<Node, Chunk> map = new HashMap<Node, Chunk>();
-		org.jsoup.nodes.Document jsoupDoc = Jsoup.parse(new File(fileName), "UTF-8");
+		org.jsoup.nodes.Document jsoupDoc = Jsoup.parse(html, "UTF-8");
 		
 		jsoupDoc.traverse(new NodeVisitor() {			
 			@Override
@@ -60,8 +59,12 @@ public abstract class Parser {
 		return document;
 	}
 	
-	public static Document parseWiki(String fileName) throws IOException {
-		String wikiContent = new String(Files.readAllBytes(Paths.get(fileName)));
+	public static Document parseHtml(Path filePath) throws IOException {
+		return parseHtml(new String(Files.readAllBytes(filePath)));
+	}
+	
+	public static Document parseWiki(Path filePath) throws IOException {
+		String wikiContent = new String(Files.readAllBytes(filePath));		
 		
 		MarkupParser markupParser = new MarkupParser();
 		
@@ -73,17 +76,22 @@ public abstract class Parser {
 		//markupParser.setMarkupLanguage(new TracWikiLanguage()); //good
 		//markupParser.setMarkupLanguage(new TWikiLanguage()); //good
 		
-		String htmlContent = markupParser.parseToHtml(wikiContent);
-		
-		FileWriter fw = new FileWriter("converted.html");
-		fw.write(htmlContent);
-		fw.flush();
-		fw.close();
-		return parseHtml("converted.html");
+//		String htmlContent = markupParser.parseToHtml(wikiContent);
+//		
+//		FileWriter fw = new FileWriter("converted.html");
+//		fw.write(htmlContent);
+//		fw.flush();
+//		fw.close();
+		return parseHtml(markupParser.parseToHtml(wikiContent));
 		
 	}
 	
-	public static Document parseMarkdown(String fileName) {
-		return null;
+	public static Document parseMarkdown(Path filePath) throws IOException {
+		String mdContent = new String(Files.readAllBytes(filePath));
+		
+		MarkupParser markupParser = new MarkupParser();
+		markupParser.setMarkupLanguage(new MarkdownLanguage());
+		
+		return parseHtml(markupParser.parseToHtml(mdContent));
 	}
 }
