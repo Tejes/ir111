@@ -28,7 +28,7 @@ public abstract class Parser {
 			@Override
 			public void head(Node node, int depth) {
 				Chunk chunk;
-				System.out.println(node);
+				//System.out.println(node);
 				if(node instanceof TextNode) {
 					if(((TextNode) node).text().equals(" "))
 						return;
@@ -90,11 +90,14 @@ public abstract class Parser {
 				if(node.parent() == null) {
 					document.addChunk(chunk);
 				}
-				else if(!map.containsKey(node.parent())) {  //TODO
-					while(!map.containsKey(node) && node != null) {
+				else if(!map.containsKey(node.parent())) {  //az õsnek nincs chunkja -> vagy gyökér, vagy nem kezelt tag (span, div, stb)
+					while(node != null && !map.containsKey(node.parent())) { //megkeressük azt az õst aminek van chunkja, vagy null-t kapunk ha gyökérhez értünk
 						node = node.parent();
 					}
-					document.addChunk(chunk);
+					if(node == null)  //gyökérnél vagyunk, a dokumentum lesz az õs
+						document.addChunk(chunk);
+					else   //megtaláltuk a legközelebbi õsét amihez van chunk
+						map.get(node.parent()).addChild(chunk);
 				}
 				else {
 					map.get(node.parent()).addChild(chunk);

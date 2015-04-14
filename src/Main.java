@@ -39,7 +39,7 @@ public class Main {
 		fw.close();
 		
 		fw = new FileWriter("out2.txt");
-		doc = Parser.parseHtml(Paths.get("test.html"));
+		doc = Parser.parseHtml(Paths.get("test2.html"));
 		doc.save(fw);
 		fw.flush();
 		fw.close();
