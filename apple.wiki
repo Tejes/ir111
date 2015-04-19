@@ -1,0 +1,472 @@
+{{hatnote|This article is about the fruit. For the technology company, see [[Apple Inc.]] For other uses, see [[Apple (disambiguation)]] or [[Apple tree (disambiguation)]].}}
+{{Use dmy dates|date=January 2015}}
+{{pp-semi-indef}}{{pp-move-indef}}
+{{good article}}
+{{taxobox
+|name = Apple
+|image = Red Apple.jpg
+|image_caption = 
+|regnum = [[Plant]]ae
+|unranked_divisio = [[Angiosperms]]
+|unranked_classis = [[Eudicots]]
+|unranked_ordo = [[Rosids]]
+|ordo = [[Rosales]]
+|familia = [[Rosaceae]]
+|genus = ''[[Malus]]''
+|species = '''''M. domestica'''''
+|binomial = ''Malus domestica''
+|binomial_authority = [[Moritz Balthasar Borkhausen|Borkh.]], 1803
+|synonyms = ''Malus communis'' <small>Desf.</small><br/>
+''Malus pumila'' <small>auct.</small><ref>{{GRIN | name = ''Malus pumila'' auct. | id = 410495 | accessdate = 4 January 2012}}</ref><br/>
+''Pyrus malus'' <small>L.</small><ref>{{GRIN | name = ''Pyrus malus'' L. | id = 30530 | accessdate = 29 January 2012}}</ref>
+|}}
+The '''apple tree''' (''Malus domestica'') is a [[deciduous]] [[tree]] in the [[Rosaceae|rose family]] best known for its sweet, [[pome|pomaceous]] [[fruit]], the '''apple'''. It is [[agriculture|cultivated]] worldwide as a [[fruit tree]], and is the most widely grown species in the [[genus]] ''[[Malus]]. ''The tree originated in [[Central Asia]], where its wild ancestor, ''[[Malus sieversii]]'', is still found today. Apples have been grown for thousands of years in Asia and Europe, and were brought to North America by European colonists. Apples have [[religion|religious]] and [[mythology|mythological]] significance in many cultures, including [[Norse mythology|Norse]], [[Greek mythology|Greek]] and European Christian traditions.
+
+Apple trees are large if grown from seed, but small if grafted onto roots (rootstock). There are more than 7,500 known [[List of apple cultivars|cultivars of apples]], resulting in a range of desired characteristics. Different cultivars are bred for various tastes and uses, including  [[cooking apple|cooking]], eating raw and [[apple cider|cider production]]. Apples are generally propagated by [[grafting]], although wild apples grow readily from seed. Trees and fruit are prone to a number of [[fungus|fungal]], [[bacteria]]l and pest problems, which can be controlled by a number of [[organic farming|organic]] and non-organic means. In 2010, the fruit's [[genome]] was decoded as part of research on disease control and selective breeding in apple production.
+
+About 69&nbsp;million tons of apples were grown worldwide in 2010, and [[China]] produced almost half of this total. The [[United States]] is the second-leading producer, with more than 6% of world production. [[Turkey]] is third, followed by [[Italy]], [[India]] and [[Poland]]. Apples are often eaten raw, but can also be found in many prepared foods (especially desserts) and drinks. Many beneficial health effects are thought to result from eating apples; however, two types of allergies are attributed to various proteins found in the fruit.
+
+==Botanical information==
+[[File:Koeh-108.jpg|thumb|right|Blossoms, fruits, and leaves of the apple tree (''Malus domestica'')]]
+The apple is a [[deciduous]] tree, generally standing {{convert|6|to|15|ft|m|disp=flip|abbr=on}} tall in cultivation and up to {{convert|12|m|ft|disp=flip|abbr=on}} in the wild.<ref>{{cite web|url=http://www.treenames.net/ti/malus/index_apple_tree.html |title=Types and names of Apple Trees, Species of the Malus Genus |publisher=Treenames.net |accessdate=25 August 2014}}</ref> When cultivated, the size, shape and branch density are determined by [[rootstock]] selection and trimming method. The [[leaf|leaves]] are [[leaf arrangement|alternately arranged]] dark green-colored simple ovals with serrated margins and slightly downy undersides.<ref name=app/>
+
+[[Blossoms]] are produced in spring simultaneously with the budding of the leaves, and are produced on spurs and some long shoots. The {{convert|3|to|4|cm|abbr=on|sp=us}} flowers are white with a pink tinge that gradually fades, five [[petal]]ed, with an [[inflorescence]] consisting of a [[cyme (botany)|cyme]] with 4–6 flowers. The central flower of the inflorescence is called the "king bloom"; it opens first, and can develop a larger fruit.<ref name=app/><ref>{{cite web|url=http://www.nhm.ac.uk/nature-online/british-natural-history/urban-tree-survey/identify-trees/tree-factsheets/a-to-b/apple/|title=Apple|publisher=Natural History Museum|accessdate=5 September 2013}}</ref>
+
+The fruit matures in late summer or autumn, and varieties exist with a wide range of sizes.  Commercial growers aim to produce an apple that is {{convert|2.75|to|3.25|in|cm|disp=flip|abbr=on}} in diameter, due to market preference. Some consumers, especially those in Japan, prefer a larger apple, while apples below {{convert|2.25|in|cm|disp=flip|abbr=on}} are generally used for making juice and have little fresh market value. The skin of ripe apples is generally red, yellow, green, pink, or russetted although many bi- or tri-colored varieties may be found.<ref name=Janick>{{cite book|url=http://www.hort.purdue.edu/newcrop/pri/chapter.pdf|format=PDF|page=9|chapter=Chapter 1: Apples|author=Jules Janick, James N. Cummins, Susan K. Brown, and Minou Hemmat|title=Fruit Breeding, Volume I: Tree and Tropical Fruits
+|editor=Jules Janick and James N. Moore|isbn=0-471-31014-X|year=1996|publisher=John Wiley & Sons, Inc.}}</ref> The skin may also be wholly or partly russeted i.e. rough and brown.  The skin is covered in a protective layer of [[epicuticular wax]],<ref>{{cite web|url=http://postharvest.tfrec.wsu.edu/pages/N2I2A |title=Natural Waxes on Fruits |publisher=Postharvest.tfrec.wsu.edu |date=29 October 2010 |accessdate=14 June 2013}}</ref> The flesh is generally pale yellowish-white,<ref name=Janick/> though pink or yellow flesh is also known.
+
+===Wild ancestors===
+{{Main|Malus sieversii}}
+The original wild [[ancestor]] of ''Malus domestica'' was ''Malus sieversii'', found growing wild in the mountains of Central Asia in southern Kazakhstan, Kyrgyzstan, Tajikistan, and [[Xinjiang]], China.<ref name=app/><ref name="Architecture and size relations: an essay on the apple (Malus x domestica, Rosaceae) tree"/>  Cultivation of the species, most likely beginning on the forested flanks of the [[Tian Shan]] mountains, progressed over a long period of time and permitted secondary [[introgression]] of genes from other species into the open-pollinated seeds. Significant exchange with ''[[Malus sylvestris]]'', the crabapple, resulted in current populations of apples being more related to crabapples than to the more morphologically similar progenitor ''Malus sieversii''. In strains without recent admixture the contribution of the latter predominates.<ref>{{cite journal |url=http://www.plosgenetics.org/article/info%3Adoi%2F10.1371%2Fjournal.pgen.1002703 |title=New Insight into the History of Domesticated Apple: Secondary Contribution of the European Wild Apple to the Genome of Cultivated Varieties |author=Amandine Cornille |journal=PLOS Genetics |doi=10.1371/journal.pgen.1002703 |year=2012 |editor1-last=Mauricio |editor1-first=Rodney |last2=Gladieux |first2=Pierre |last3=Smulders |first3=Marinus J. M. |last4=Roldán-Ruiz |first4=Isabel |last5=Laurens |first5=François |last6=Le Cam |first6=Bruno |last7=Nersesyan |first7=Anush |last8=Clavel |first8=Joanne |last9=Olonova |first9=Marina |volume=8 |issue=5 |pages=e1002703 |pmid=22589740 |pmc=3349737|displayauthors=1 }}</ref><ref>{{cite web|url=http://news.sciencemag.org/sciencenow/2012/05/scienceshot-the-secret-history-o.html|title=ScienceShot: The Secret History of the Domesticated Apple|author=Sam Kean|date=17 May 2012}}</ref><ref name="Coart"/>
+
+===Genome===
+In 2010, an Italian-led consortium announced they had decoded the complete [[genome]] of the apple in collaboration with horticultural genomicists at [[Washington State University]],<ref>{{cite web|url=http://cahnrsnews.wsu.edu/2010/08/29/apple-cup-rivals-contribute-to-apple-genome-sequencing/ |title=Apple Cup Rivals Contribute to Apple Genome Sequencing |publisher=Cahnrsnews.wsu.edu |date=29 August 2010 |accessdate=28 December 2012}}</ref> using the [[Golden delicious]] variety.<ref>{{cite web|url=http://www.nature.com/ng/journal/v42/n10/full/ng.654.html |title=The genome of the domesticated apple (Malus × domestica Borkh.) |publisher=Nature.com |accessdate=28 December 2012}}</ref> It had about 57,000 genes, the highest number of any plant genome studied to date<ref>[http://www.alphagalileo.org/ViewItem.aspx?ItemId=83717&CultureCode=en An Italian-led international research consortium decodes the apple genome] AlphaGallileo 29 August 2010. Retrieved 19 October 2011.</ref> and more genes than the human genome (about 30,000).<ref>[http://www.ornl.gov/sci/techresources/Human_Genome/project/info.shtml The Science Behind the Human Genome Project] Human Genome Project Information, US Department of Energy, 26 March 2008. Retrieved 19 October 2011.</ref> This new understanding of the apple genome will help scientists in identifying genes and gene variants that contribute to resistance to disease and drought, and other desirable characteristics. Understanding the genes behind these characteristics will allow scientists to perform more knowledgeable selective breeding. Decoding the genome also provided proof that ''Malus sieversii'' was the wild ancestor of the domestic apple—an issue that had been long-debated in the scientific community.<ref>Clark, Brian, [http://cahnrsnews.wsu.edu/2010/08/29/apple-cup-rivals-contribute-to-apple-genome-sequencing/ Apple Cup Rivals Contribute to Apple Genome Sequencing], 29 August 2010, ''Washington State University'', retrieved 19 October 2011.</ref>
+
+==History==
+[[File:95apple.jpeg|thumb|Wild ''Malus sieversii'' apple in Kazakhstan]]
+The center of diversity of the genus ''[[Malus]]'' is in eastern [[Turkey]]. The apple tree was perhaps the earliest tree to be cultivated,<ref name=app6/> and its fruits have been improved through selection over thousands of years. [[Alexander the Great]] is credited with finding dwarfed apples in [[Kazakhstan]] in 328 [[BCE]];<ref name=app/> those he brought back to Macedonia might have been the progenitors of dwarfing root stocks. Winter apples, picked in late autumn and stored just above freezing, have been an important food in Asia and Europe for millennia.<ref name=app6>{{cite web
+|url= http://www.vegparadise.com/highestperch39.html
+|title= An apple a day keeps the doctor away
+|accessdate=27 January 2008
+|publisher=vegparadise.com
+| archiveurl= http://web.archive.org/web/20080211100203/http://www.vegparadise.com/highestperch39.html| archivedate= 11 February 2008 | deadurl= no}}</ref>
+
+Apples were brought to North America by colonists in the 17th century,<ref name=app/> and the first apple orchard on the North American continent was planted in [[Boston]] by Reverend [[William Blaxton]] in 1625.<ref>{{cite book|last=Smith|first=Archibald William|title=A Gardener's Handbook of Plant Names: Their Meanings and Origins|year=1997|publisher=Dover Publications|isbn=0-486-29715-2|page=39}}</ref> The only apples native to North America are crab apples, which were once called "common apples".<ref name="lawrence122">{{cite book|last=Lawrence|first=James|title=The Harrowsmith Reader, Volume II|year=1980|publisher=Camden House Publishing Ltd.|isbn=0-920656-10-2|page=122}}</ref> Apple varieties brought as seed from Europe were spread along Native American trade routes, as well as being cultivated on Colonial farms. An 1845 United States apples nursery catalogue sold 350 of the "best" varieties, showing the proliferation of new North American varieties by the early 19th century.<ref name="lawrence122"/> In the 20th century, irrigation projects in [[Eastern Washington]] began and allowed the development of the multibillion dollar fruit industry, of which the apple is the leading product.<ref name=app/>
+
+Until the 20th century, farmers stored apples in [[Root cellar|frostproof cellars]] during the winter for their own use or for sale. Improved transportation of fresh apples by train and road replaced the necessity for storage.<ref>{{cite book
+|url=http://books.google.com/?id=9KwPofkJTHYC&pg=PA33&lpg=PA33&dq=%22apple+cellar%22+history+.edu+-,com+-.com#v=onepage&q&f=false
+|title=History of Bergen county, New Jersey|author=James M. Van Valen|publisher=[[Nabu Press]]|year=2010|page=744|isbn=1-177-72589-4}}</ref><ref>{{cite book|url=http://books.google.com/?id=ngAVBYuRyb8C&pg=PA150&lpg=PA150&dq=%22apple+cellar%22+history+.edu+-,com+-.com#v=onepage&q&f=false |title=Five Thousand Days Like This One: An American Family History|author=Brox, Jane |publisher=Beacon Press |year=2000|isbn=978-0-8070-2107-1}}</ref> In the 21st century, long-term storage again came into popularity, as "controlled atmosphere" facilities were used to keep apples fresh year-round. Controlled atmosphere facilities use high humidity and low oxygen and carbon dioxide levels to maintain fruit freshness.<ref>{{cite web|url=http://www.bestapples.com/facts/facts_controlled.aspx|title=Controlled Atmosphere Storage|publisher=Washington Apple Commission|accessdate=3 April 2012}}</ref>
+
+==Cultural aspects==
+{{Main|Apple (symbolism)}}
+[[File:Carl Larsson Brita as Iduna.jpg|thumb|upright=0.6|"Brita as [[Iðunn|Iduna]]" (1901) by [[Carl Larsson]]]]
+
+===Germanic paganism===
+In [[Norse mythology]], the goddess [[Iðunn]] is portrayed in the ''[[Prose Edda]]'' (written in the 13th century by [[Snorri Sturluson]]) as providing apples to the [[gods]] that give them [[eternal youth]]fulness. English scholar [[H. R. Ellis Davidson]] links apples to religious practices in [[Germanic paganism]], from which [[Norse paganism]] developed. She points out that buckets of apples were found in the [[Oseberg ship]] burial site in Norway, and that fruit and nuts (Iðunn having been described as being transformed into a nut in ''[[Skáldskaparmál]]'') have been found in the early graves of the [[Germanic peoples]] in England and elsewhere on the continent of Europe, which may have had a symbolic meaning, and that nuts are still a recognized symbol of [[fertility]] in southwest England.<ref name="autogenerated1"/>
+
+Davidson notes a connection between apples and the [[Vanir]], a tribe of gods associated with [[fertility]] in Norse mythology, citing an instance of eleven "golden apples" being given to woo the beautiful [[Gerðr]] by [[Skírnir]], who was acting as messenger for the major Vanir god [[Freyr]] in stanzas 19 and 20 of ''[[Skírnismál]]''. Davidson also notes a further connection between fertility and apples in Norse mythology in chapter 2 of the ''[[Völsunga saga]]'' when the major goddess [[Frigg]] sends King [[Rerir]] an apple after he prays to Odin for a child, Frigg's messenger (in the guise of a crow) drops the apple in his lap as he sits atop a [[tumulus|mound]].<ref name="DAVIDSON165-166"/> Rerir's wife's consumption of the apple results in a six-year pregnancy and the [[Caesarean section]] birth of their son—the hero [[Völsung]].<ref name="DAVIDSONROLES146-147"/>
+
+Further, Davidson points out the "strange" phrase "Apples of [[Hel (location)|Hel]]" used in an 11th-century poem by the [[skald]] Thorbiorn Brúnarson. She states this may imply that the apple was thought of by Brúnarson as the food of the dead. Further, Davidson notes that the potentially Germanic goddess [[Nehalennia]] is sometimes depicted with apples and that parallels exist in early Irish stories. Davidson asserts that while cultivation of the apple in Northern Europe extends back to at least the time of the [[Roman Empire]] and came to Europe from the [[Near East]], the native varieties of apple trees growing in Northern Europe are small and bitter. Davidson concludes that in the figure of Iðunn "we must have a dim reflection of an old symbol: that of the guardian goddess of the life-giving fruit of the other world."<ref name="autogenerated1" />
+
+===Greek mythology===
+[[File:Hercules Musei Capitolini MC1265 n2.jpg|thumb|right|upright=0.6|[[Heracles]] with the apple of [[Hesperides]]]]
+Apples appear in many [[World religions|religious traditions]], often as a mystical or [[forbidden fruit]]. One of the problems identifying apples in religion, [[mythology]] and [[Folklore|folktales]] is that the word "apple" was used as a generic term for all (foreign) fruit, other than berries, including nuts, as late as the 17th century.<ref name="app3"/> For instance, in [[Greek mythology]], the [[Greek hero]] [[Heracles]], as a part of his [[Labours of Hercules|Twelve Labours]], was required to travel to the Garden of the Hesperides and pick the golden apples off the [[Hesperides#The Garden of the Hesperides|Tree of Life]] growing at its center.<ref name=book1>{{cite book
+| last = Wasson
+| first = R. Gordon
+| authorlink = R. Gordon Wasson
+| title = Soma: Divine Mushroom of Immortality
+|publisher=Harcourt Brace Jovanovich
+| page = 128
+| year = 1968
+| isbn =0-15-683800-1}}</ref><ref name=book2>{{cite book
+| last = Ruck
+| first = Carl
+| authorlink = Carl Ruck
+| author2 = Blaise Daniel Staples
+| title = The Apples of Apollo, Pagan and Christian Mysteries of the Eucharist
+| publisher = Carolina Academic Press
+| year = 2001
+| location = Durham
+| pages = 64–70
+| isbn = 0-89089-924-X| authorlink2 = Blaise Daniel Staples
+}}</ref><ref>{{cite book
+| last = Heinrich
+| first = Clark
+| title = Magic Mushrooms in Religion and Alchemy
+| publisher = Park Street Press
+| year = 2002
+| location = Rochester
+| pages = 64–70
+| isbn = 0-89281-997-9}}</ref>
+
+The Greek goddess of discord, [[Eris (mythology)|Eris]], became disgruntled after she was excluded from the wedding of [[Peleus]] and [[Thetis]].<ref>Herodotus ''Histories'' 6.1.191.</ref> In retaliation, she tossed a golden apple inscribed [[Kallisti|Καλλίστη]] (''Kalliste'', sometimes transliterated ''Kallisti'', 'For the most beautiful one'), into the wedding party. Three goddesses claimed the apple: [[Hera]], [[Athena]], and [[Aphrodite]]. [[Paris (mythology)|Paris]] of [[Troy]] was appointed to select the recipient. After being bribed by both Hera and Athena, Aphrodite tempted him with the most beautiful woman in the world, [[Helen of Troy|Helen]] of [[Sparta]]. He awarded the apple to Aphrodite, thus indirectly causing the [[Trojan War]].
+
+The apple was thus considered, in ancient Greece, to be sacred to Aphrodite, and to throw an apple at someone was to symbolically declare one's love; and similarly, to catch it was to symbolically show one's acceptance of that love.<ref>Edmonds, J. M., trans.; rev. John M. Cooper. "Epigrams". ''Plato: Complete Works''. Ed. John M. Cooper. Indianapolis: Hackett, 1997. p 1744, note to VII. Print.</ref> An epigram claiming authorship by Plato states:
+
+{{quote
+| text = I throw the apple at you, and if you are willing to love me, take it and share your girlhood with me; but if your thoughts are what I pray they are not, even then take it, and consider how short-lived is beauty.
+| sign = [[Plato]]
+| source = Epigram VII<ref>Edmonds, J. M., trans.; rev. John M. Cooper. "Epigrams". ''Plato: Complete Works''. Ed. John M. Cooper. Indianapolis: Hackett, 1997. p 1744. Print.</ref>
+}}
+
+[[Atalanta]], also of Greek mythology, raced all her suitors in an attempt to avoid marriage. She outran all but [[Hippomenes]] (also known as [[Melanion]], a name possibly derived from ''melon'' the Greek word for both "apple" and fruit in general),<ref name=book2/> who defeated her by cunning, not speed. Hippomenes knew that he could not win in a fair race, so he used three golden apples (gifts of Aphrodite, the goddess of love) to distract Atalanta. It took all three apples and all of his speed, but Hippomenes was finally successful, winning the race and Atalanta's hand.<ref name=book1/>
+
+===The forbidden fruit in the Garden of Eden===
+[[File:Durer Adam and Eve.jpg|thumb|upright=0.6|''[[Adam and Eve]]'' by [[Albrecht Dürer]] (1507), showcasing the apple as a symbol of sin.]]
+
+Though the forbidden fruit of [[Garden of Eden|Eden]] in the [[Book of Genesis]] is not identified, popular Christian tradition has held that it was an apple that [[Adam and Eve|Eve]] coaxed [[Adam and Eve|Adam]] to share with her.<ref name="book7"/> The origin of the popular identification with a fruit unknown in the Middle East in biblical times is found in confusion between the [[Latin language|Latin]] words ''mālum'' (an apple) and ''mălum'' (an evil), each of which is normally written ''malum''.<ref>{{cite web|url=http://books.google.com/books?id=lotBnvqdmeQC&pg=PA193&dq=Genesis+apple&hl=en&sa=X&ei=KZjfUb7DBquf7AaY5YCIDw&redir_esc=y#v=onepage&q=Genesis%20apple&f=false |title=Paul J. Kissling, '&#39;Genesis'&#39; (College Press 2004 ISBN 978-0-89900875-2), vol. 1, p. 193 |publisher=Books.google.com |accessdate=25 August 2014}}</ref> The tree of the forbidden fruit is called "the tree of the knowledge of good and evil" in {{bibleverse||Genesis|2:17|ESV}}, and the Latin for "good and evil" is ''bonum et malum''.<ref>{{cite web|url=http://books.google.com/books?id=xBPpIHwcZMUC&pg=PA114&dq=Genesis+apple+malum&hl=en&sa=X&ei=DpzfUY64Gamu7Aboz4GIDw&redir_esc=y#v=onepage&q=Genesis%20apple%20malum&f=falseRonald |title=Hendel, '&#39;The Book of Genesis: A Biography'&#39; (Princeton University Press 2012 ISBN 978-0-69114012-4), p. 114 |publisher=Books.google.com |accessdate=25 August 2014}}</ref>
+
+[[Renaissance]] painters may also have been influenced by the story of the [[golden apple]]s in the [[Hesperides#The Garden of the Hesperides|Garden of Hesperides]]. As a result, in the story of Adam and Eve, the apple became a symbol for knowledge, immortality, temptation, the fall of man into sin, and sin itself. The [[larynx]] in the human throat has been called [[Adam's apple]] because of a notion that it was caused by the forbidden fruit remaining in the throat of Adam.<ref name="book7" /> The apple as symbol of sexual [[seduction]] has been used to imply human sexuality, possibly in an ironic vein.<ref name=book7/>
+
+==Cultivars==
+{{main|List of apple cultivars}}
+[[File:Red and Green apples in India.jpg|thumb|right|Red and green apples in India]]
+There are more than 7,500 known [[cultivar]]s of apples.<ref name="Elzebroek">{{cite book
+|last=Elzebroek
+|first=A.T.G.
+|author2=Wind, K.
+|title=Guide to Cultivated Plants
+|publisher=CAB International
+|location=Wallingford
+|year=2008
+|page=27
+|isbn=1-84593-356-7
+|url=http://books.google.com/?id=YvU1XnUVxFQC&lpg=PT39&dq=apple%20cultivars%207%2C500&pg=PT39#v=onepage&q=}}</ref> Cultivars vary in their [[Crop yield|yield]] and the ultimate size of the tree, even when grown on the same [[rootstock]].<ref name=England/> Different cultivars are available for [[temperate]] and [[subtropical]] climates. The UK's National Fruit Collection, which is the responsibility of the Department of Environment Food and Rural Affairs, has a collection of over 2,000 accessions in Kent.<ref>{{cite web|url=http://www.nationalfruitcollection.org.uk/index.php|title="National Fruit Collections at Brogdale", ''Farm Advisory Services Team''|accessdate=2 December 2012}}</ref> The University of Reading, which is responsible for developing the UK national collection database, provides access to search the national collection. The University of Reading's work is part of the European Cooperative Programme for Plant Genetic Resources of which there are 38 countries participating in the Malus/Pyrus work group.<ref>{{cite web|url=http://www.ecpgr.cgiar.org/index.php?id=2501&tx_wfqbe_pi1&#91;uid&#93;=59 |title=ECPGR Malus/Pyrus Working Group Members |publisher=Ecpgr.cgiar.org |date=22 July 2002 |accessdate=25 August 2014}}</ref>
+
+The UK's national fruit collection database contains a wealth of information on the characteristics and origin of many apples, including alternative names for what is essentially the same 'genetic' apple variety. Most of these cultivars are bred for eating fresh (dessert apples), though some are cultivated specifically for cooking ([[cooking apple]]s) or producing [[cider]]. [[Cider apple]]s are typically too tart and astringent to eat fresh, but they give the beverage a rich flavor that dessert apples cannot.<ref name="apples1">{{cite web
+|url= http://casfs.ucsc.edu/publications/news%20and%20notes/Fall_06_N&N.pdf
+|title= Autumn Apple Musings
+|accessdate=24 January 2008
+|format= PDF
+|pages= 1–2
+|author=Sue Tarjan
+|publisher=News & Notes of the UCSC Farm & Garden, Center for Agroecology & Sustainable Food Systems
+|date=Fall 2006
+|archiveurl = http://web.archive.org/web/20070811154017/http://casfs.ucsc.edu/publications/news+and+notes/Fall_06_N&N.pdf
+|archivedate = 11 August 2007}}</ref>
+
+Commercially popular apple cultivars are soft but crisp. Other desired qualities in modern commercial apple breeding are a colorful skin, absence of [[Russet apple|russeting]], ease of shipping, lengthy storage ability, high yields, disease resistance, common apple shape, and developed flavor.<ref name="England">{{cite web
+|url= http://www.plantpress.com/wildlife/o523-apple.php
+|title= Apple – Malus domestica
+|accessdate=22 January 2008
+|publisher=Natural England
+|archiveurl=http://web.archive.org/web/20080512000735/http://www.plantpress.com/wildlife/o523-apple.php
+|archivedate=12 May 2008}}</ref> Modern apples are generally sweeter than older cultivars, as popular tastes in apples have varied over time. Most North Americans and Europeans favor sweet, subacid apples, but tart apples have a strong minority following.<ref name=World/> Extremely sweet apples with barely any acid flavor are popular in Asia<ref name=World>{{cite web
+|url= http://www.fas.usda.gov/htp2/circular/1998/98-03/applefea.html
+|title= World apple situation
+|accessdate=24 January 2008
+| archiveurl= http://web.archive.org/web/20080211120700/http://www.fas.usda.gov/htp2/circular/1998/98-03/applefea.html| archivedate= 11 February 2008 | deadurl= no}}</ref> and especially [[Indian Subcontinent]] .<ref name=apples1/>
+
+Old cultivars are often oddly shaped, russeted, and have a variety of textures and colors. Some find them to have a better flavor than modern cultivars,<ref name="Crops & Gardening - Apples of Antiquity"/> but may have other problems which make them commercially unviable from low yield, disease susceptibility, or poor tolerance for storage or transport. A few old cultivars are still produced on a large scale, but many have been preserved by home gardeners and farmers that sell directly to local markets. Many unusual and locally important cultivars with their own unique taste and appearance exist; apple conservation campaigns have sprung up around the world to preserve such local cultivars from extinction. In the United Kingdom, old cultivars such as '[[Cox's Orange Pippin]]' and '[[Egremont Russet]]' are still commercially important even though by modern standards they are low yielding and susceptible to disease.<ref name=app>{{cite web
+|url= http://www.uga.edu/fruit/apple.html
+|title= Origin, History of cultivation
+|accessdate=22 January 2008
+|publisher=[[University of Georgia]]
+|archiveurl = http://web.archive.org/web/20080121045236/http://www.uga.edu/fruit/apple.html <!-- Bot retrieved archive --> |archivedate = 21 January 2008}}
+</ref>
+
+==Cultivation==
+
+===Breeding===
+{{See also|Fruit tree propagation|Malling series}}
+[[File:Apfelbaum Boskop Hochstamm.jpg|thumb|An apple tree in Germany]]
+In the wild, apples grow readily from seeds. However, like most perennial fruits, apples are ordinarily propagated asexually by [[grafting]]. This is because seedling apples are an example of "[[Zygosity|extreme heterozygotes]]", in that rather than inheriting DNA from their parents to create a new apple with those characteristics, they are instead significantly different from their parents.<ref>{{cite video|people=[[John Lloyd (writer)|John Lloyd]] and [[John Mitchinson (researcher)|John Mitchinson]]|title=QI: The Complete First Series – QI Factoids|medium=DVD|publisher=2 entertain|date=2006}}</ref> [[Polyploid|Triploid]] varieties have an additional reproductive barrier in that 3 sets of chromosomes cannot be divided evenly during meiosis, yielding unequal segregation of the chromosomes (aneuploids). Even in the case when a triploid plant can produce a seed (apples are an example), it occurs infrequently, and seedlings rarely survive.<ref>{{cite web|url=http://www.ces.ncsu.edu/fletcher/programs/nursery/metria/metria11/ranney/index.html |title=NCSU.edu |publisher=Ces.ncsu.edu |date=24 July 2009 |accessdate=7 November 2010}}</ref>
+
+Because apples do not breed true when planted as seeds, [[grafting]] is generally used to produce new apple trees. The [[rootstock]] used for the bottom of the graft can be selected to produce trees of a large variety of sizes, as well as changing the winter hardiness, insect and disease resistance, and soil preference of the resulting tree. Dwarf rootstocks can be used to produce very small trees (less than {{convert|10|ft|m|disp=flip|abbr=on}} high at maturity), which bear fruit earlier in their life cycle than full size trees.<ref>{{cite web|url=http://extension.unh.edu/resources/files/resource000583_rep605.pdf|format=PDF|title=Dwarf Rootstocks for Apple Trees in the Home Garden|publisher=University of New Hampshire|author=William G. Lord and Amy Ouellette|date=February 2010|accessdate=1 September 2013}}</ref> Dwarf rootstocks for apple trees can be traced as far back as 300 BC, to the area of [[Persia]] and [[Asia Minor]]. [[Alexander the Great]] sent samples of dwarf apple trees to [[Aristotle]]'s [[Lyceum]]. Dwarf rootstocks became common by the 15th century, and later went through several cycles of popularity and decline throughout the world.<ref>{{cite journal|title=The Importance of Apple Rootstocks on Tree Growth, Yield, Fruit Quality, Leaf Nutrition, and Photosynthesis with an Emphasis on ‘Fuji’|author=Esmaeil Fallahi, W. Michael Colt, Bahar Fallahi, Ik-Jo Chun|date=January–March 2002|journal=Hort Technology|volume=12|issue=1|url=http://horttech.ashspublications.org/content/12/1/38.full.pdf|format=PDF}}</ref> The majority of the rootstocks used today to control size in apples were developed in England in the early 1900s. The [[East Malling Research Station]] conducted extensive research into rootstocks, and today their rootstocks are given an "M" prefix to designate their origin. Rootstocks marked with an "MM" prefix are Malling-series varieties later crossed with trees of the [[Northern Spy]] variety in [[London Borough of Merton|Merton, England]].<ref>{{cite web|url=http://www.ces.ncsu.edu/hil/hil-300-a.html|title=Apple Rootstocks and Tree Spacing|date=September 1993|accessdate=1 September 2013|author=ML Parker|publisher=North Carolina Cooperative Extension Service}}</ref>
+
+Most new apple cultivars originate as seedlings, which either arise by chance or are bred by deliberately crossing cultivars with promising characteristics.<ref name=book9>{{cite book| last = Ferree|first = David Curtis|author2=Ian J. Warrington| title = Apples: Botany, Production and Uses| publisher = CABI Publishing| isbn = 0-85199-357-5| year = 1999| oclc = 182530169}}</ref> The words 'seedling', 'pippin', and 'kernel' in the name of an apple cultivar suggest that it originated as a seedling. Apples can also form [[bud sport]]s (mutations on a single branch). Some bud sports turn out to be improved strains of the parent cultivar. Some differ sufficiently from the parent tree to be considered new cultivars.<ref name=app4>{{cite web|url= http://hgic.clemson.edu/factsheets/HGIC1350.htm|archiveurl= http://web.archive.org/web/20080228131352/http://hgic.clemson.edu/factsheets/HGIC1350.htm|archivedate= 28 February 2008|title= Apple|accessdate=22 January 2008|author= Bob Polomski|author2=Greg Reighard|publisher= Clemson University}}</ref>
+
+Since the 1930s, the Excelsior Experiment Station at the [[University of Minnesota]] has introduced a steady progression of important apples that are widely grown, both commercially and by local orchardists, throughout [[Minnesota]] and [[Wisconsin]]. Its most important contributions have included '[[Haralson (apple)|Haralson']] (which is the most widely cultivated apple in Minnesota), '[[Wealthy (apple)|Wealthy]]', 'Honeygold', and '[[Honeycrisp]]'.
+
+Apples have been acclimatized in Ecuador at very high altitudes, where they provide crops twice per year because of constant temperate conditions year-round.<ref name="Apples in Ecuador"/>
+
+<gallery>
+File:Aliceapple.JPG|'''Alice''' 
+Image:Malus-Ananasrenette.jpg|'''Ananasrenette'''
+File:Aroma äpplen i korg.jpeg|Aroma
+File:Discovery apples.jpg|'''Discovery'''
+
+Image:Brimley Apples.jpg|'''Bramley'''
+Image:Arkansas Black apples.jpg|'''Arkansas Black'''
+Image:Fuji apple.jpg|'''Fuji'''
+Image:Golden delicious apple.jpg|'''Golden delicious'''
+Image:Malus Goldrenette F. v. Berlepsch.jpg|'''Goldrenette''' 
+Image:Red Apple.jpg|'''Gala '''
+Image:Red Delicious.jpg|'''Red Delicious'''
+Image:Jonagold.jpg|'''Jonagold'''
+File:Malus-James-Grieve.jpg|'''James Grieve'''
+
+Image:Granny smith closeup.jpg|'''Granny Smith'''
+Image:McIntosh with sticker by Lars Zapf 2006-03-30 cropped.jpg|'''McIntosh'''  
+
+Image:Yellow Transparent.jpg|'''Yellow Transparent'''
+
+Image:Apple 03.jpg|'''Pacific rose'''
+Image:Lobo cultivar.jpg|'''Lobo'''
+Image:Sampion cultivar.jpg|'''[[Champion (apple)|Sampion]]''' (Shampion)
+File:Summerred.jpg|'''Summerred'''
+File:Malus-Cripps-Pink.jpg|'''Pink Lady'''
+
+File:Malus-Boskoop organic.jpg|'''Belle de Boskoop'''
+File:Red delicious apples.jpg|'''Red Delicious'''
+File:Malus-Cox-Pomona.jpg|'''Cox Pomona'''
+</gallery>
+
+===Pollination===
+{{See also| Fruit tree pollination}}
+[[File:Apple tree blossom.JPG|right|thumb|Apple blossom from an old [[Ayrshire]] variety]]
+[[File:Orchmason.jpg|thumb|[[Orchard mason bee]] on apple bloom, [[British Columbia, Canada]]]]
+
+Apples are self-incompatible; they must [[Pollination|cross-pollinate]] to develop fruit. During the flowering each season, apple growers often utilize [[pollinator]]s to carry pollen. [[Honey bee]]s are most commonly used. [[Osmia lignaria|Orchard mason bees]] are also used as supplemental pollinators in commercial orchards. [[Bumblebee]] [[queen bee|queens]] are sometimes present in orchards, but not usually in enough quantity to be significant pollinators.<ref name=app4/>
+
+There are four to seven pollination groups in apples, depending on climate:
+* Group A – Early flowering, 1 to 3 May in England ([[Gravenstein]], Red Astrachan)
+* Group B – 4 to 7 May ([[Idared]], [[McIntosh (apple)|McIntosh]])
+* Group C – Mid-season flowering, 8 to 11 May ([[Granny Smith]], [[Cox's Orange Pippin]])
+* Group D – Mid/late season flowering, 12 to 15 May ([[Golden Delicious]], Calville blanc d'hiver)
+* Group E – Late flowering, 16 to 18 May ([[Braeburn]], Reinette d'Orléans)
+* Group F – 19 to 23 May (Suntan)
+* Group H – 24 to 28 May (Court-Pendu Gris - also called Court-Pendu plat)
+
+One cultivar can be pollinated by a compatible cultivar from the same group or close (A with A, or A with B, but not A with C or D).<ref name="Symposium on Growth Regulators in Fruit Production"/>
+
+Varieties are sometimes classified by the day of peak bloom in the average 30-day blossom period, with pollenizers selected from varieties within a 6-day overlap period.
+
+===Maturation and harvest===
+{{See also|Fruit picking|Fruit tree pruning}}
+
+Cultivars vary in their yield and the ultimate size of the tree, even when grown on the same rootstock. Some cultivars, if left unpruned, will grow very large, which allows them to bear much more fruit, but makes harvesting very difficult. Depending on the tree density (number of trees planted per unit surface area), mature trees typically bear {{convert|40|-|200|kg|lb|abbr=on}} of apples each year, though productivity can be close to zero in poor years. Apples are harvested using three-point ladders that are designed to fit amongst the branches. Trees grafted on dwarfing rootstocks will bear about {{convert|10|-|80|kg|lb|abbr=on}} of fruit per year.<ref name=app4/>
+
+Crops ripen at different times of the year according to the variety of apple. Varieties that yield their crop in the summer include Gala, Golden Supreme, McIntosh, Transparent, Primate, Sweet Bough, and Duchess; fall producers include Fuji, Jonagold, Golden Delicious, Red Delicious, Chenango, Gravenstein, Wealthy, McIntosh, Snow, and Blenheim; winter producers include Winesap, Granny Smith, King, Wagener, Swayzie, Greening, and Tolman Sweet.<ref name="lawrence122"/>
+
+===Storage===
+Commercially, apples can be stored for some months in controlled-atmosphere chambers to delay [[ethylene]]-induced ripening. Apples are commonly stored in chambers with higher concentrations of [[carbon dioxide]] and high air filtration. This prevents ethylene concentrations from rising to higher amounts and preventing ripening from occurring too quickly. Ripening continues when the fruit is removed from storage.<ref>{{cite web
+|url= http://www.bestapples.com/facts/facts_controlled.shtml
+|title= Controlled Atmosphere Storage (CA)
+|accessdate=24 January 2008
+|publisher=Washington State Apple Advertising Commission
+|archiveurl=http://web.archive.org/web/20080311010006/http://www.bestapples.com/facts/facts_controlled.shtml
+|archivedate=11 March 2008}}</ref>
+For home storage, most varieties of apple can be held for approximately two weeks when kept at the coolest part of the refrigerator (i.e. below 5&nbsp;°C). Some types, including the [[Granny Smith]] and [[Fuji (apple)|Fuji]], can be stored up to a year without significant degradation.<ref name="Food Science Australia Fact Sheet: Refrigerated storage of perishable foods"/><ref name="Yepsen 1994">{{cite book|last=Yepsen|first=Roger|title=Apples|year=1994|publisher=W.W. Norton & Co.|location=New York|isbn=0-393-03690-1}}</ref>
+
+===Pests and diseases===
+[[File:Apple tree leaves with insect damage.jpg|thumb|Leaves with significant insect damage]]
+{{Main|List of apple diseases}}
+{{See also|List of Lepidoptera that feed on Malus}}
+Apple trees are susceptible to a number of [[fungus|fungal]] and [[bacterium|bacterial]] diseases and insect pests. Many commercial orchards pursue an aggressive program of chemical sprays to maintain high fruit quality, tree health, and high yields. A trend in orchard management is the use of organic methods. These ban the use of some pesticides, though some older pesticides are allowed. [[organic farming|Organic]] methods include, for instance, introducing its natural predator to reduce the population of a particular pest.
+
+A wide range of pests and diseases can affect the plant; three of the more common diseases/pests are mildew, aphids and apple scab.
+* [[Mildew]]: which is characterized by light grey powdery patches appearing on the leaves, shoots and flowers, normally in spring. The flowers will turn a creamy yellow color and will not develop correctly. This can be treated in a manner not dissimilar from treating [[Botryotinia|Botrytis]]; eliminating the conditions which caused the disease in the first place and burning the infected plants are among the recommended actions to take.<ref name="pest4"/>
+* [[Aphids]]: There are five species of aphids commonly found on apples: apple grain aphid, rosy apple aphid, apple aphid, spirea aphid and the woolly apple aphid. The aphid species can be identified by their color, the time of year when they are present and by differences in the cornicles, which are small paired projections from the rear of aphids.<ref name=pest4/> Aphids feed on foliage using needle-like mouth parts to suck out plant juices. When present in high numbers, certain species reduce tree growth and vigor.<ref name=pest5>{{cite web
+|url= http://www.umass.edu/fruitadvisor/NEAPMG/index.htm
+|title= Apple Pest Management Guide
+|author= Coli, William et al.
+|accessdate=3 March 2008
+|publisher=University of Massachusetts Amherst
+| archiveurl= http://web.archive.org/web/20080212130013/http://www.umass.edu/fruitadvisor/NEAPMG/index.htm| archivedate= 12 February 2008 | deadurl= no}}</ref>
+* [[Apple scab]]: Apple scab causes leaves to develop olive-brown spots with a velvety texture that later turn brown and become cork-like in texture. The disease also affects the fruit, which also develops similar brown spots with velvety or cork-like textures. Apple scab is spread through fungus growing in old apple leaves on the ground and spreads during warm spring weather to infect the new year's growth.<ref name=Bradley>{{cite book|title=The Organic Gardener's Handbook of Natural Pest and Disease Control|editor=Bradley, Fern Marshall; Ellis, Barbara W.; Martin, Deborah L.|year=2009|publisher=Rodale, Inc|isbn=978-1-60529-677-7|pages=32–34}}</ref>
+
+Among the most serious disease problems are [[fireblight]], a bacterial disease; and ''[[Gymnosporangium]]'' rust, and [[Black Spot (disease)|black spot]], two fungal diseases.<ref name=pest5/> [[Codling moth]]s and [[apple maggot]]s are two other pests which affect apple trees. Young apple trees are also prone to mammal pests like mice and deer, which feed on the soft bark of the trees, especially in winter.<ref name=Bradley/>
+
+==Production==
+{{Main article|List of countries by apple production}}
+{| class="sortable wikitable" style="float:right; margin: 0 0 0.5em 1em"
+|+ Top 10 Apple Producing Countries <br />(in metric tonnes)
+!Rank
+!Country
+!2010
+!2011
+!2012
+|-
+| 1 || {{CHN}} ||  33,263,000 || 35,985,000|| 37,000,000
+|-
+| 2 || {{USA}} || 4,214,599 ||  4,275,108|| 4,110,046
+|-
+| 3 || {{TUR}} || 2,600,000 || 2,680,075 || 2,889,000
+|-
+| 4 || {{POL}} || 1,877,906 || 2,493,078 || 2,877,000
+|-
+| 5 || {{IND}} ||  1,777,200 || 2,891,000 || 2,203,000
+|-
+| 6 || {{ITA}} || 2,204,972 || 2,411,201 || 1,991,312
+|-
+| 7 || {{IRN}} || 1,662,430 || 1,842,972  || 1,700,000
+|-
+| 8 || {{CHL}} || 1,624,242 || 1,588,347  || 1,625,000
+|-
+| 9 || {{RUS}} || 992,000 || 1,200,000  || 1,403,000
+|-
+| 10 || {{FRA}} || 1,778,433 || 1,857,349 || 1,382,901
+|- style="background:#ccc;"
+| — || ''[[World]]'' || 60,271,191 || 65,800,145  || 63,454,495
+|-
+|colspan=5 | ''Source: [[FAO|UN Food & Agriculture Organization]]'' <ref>{{cite web|url=http://faostat.fao.org/site/339/default.aspx|publisher= [[FAO|UN Food & Agriculture Organization]]|title=Production of Apple by countries|year=2011|accessdate=19 December 2013}}</ref>
+|}
+About 63 million tonnes of apples were grown worldwide in 2012, with China producing almost half of this total. The United States is the second-leading producer, with more than 6% of world production. The largest exporters of apples in 2009 were [[China]], [[U.S.]], [[Turkey]], [[Poland]], [[Italy]], [[Iran]], and [[India]] while the biggest importers in the same year were Russia, Germany, the UK and the Netherlands.<ref>{{cite web|url=http://faostat.fao.org/site/535/DesktopDefault.aspx?PageID=535#ancor |title=FAO |publisher=Faostat.fao.org |date=8 August 2012 |accessdate=8 August 2012}}</ref>
+
+In the United States, more than 60% of all the apples sold commercially are grown in [[Washington (U.S. state)|Washington]].<ref>{{cite book
+| last = Desmond
+| first = Andrew
+| title = The World Apple Market
+| publisher = Haworth Press
+| pages = 144–149
+| isbn =1-56022-041-4
+| year = 1994
+| oclc = 243470452}}</ref> Imported apples from New Zealand and other more temperate areas are competing with U.S. production and increasing each year.<ref name=china>{{cite web
+|url= http://www.fruitgrowersnews.com/pages/2004/issue04_10/04_10_ChinaJuice.html
+|title= Chinese apple-juice concentrate exports to United States continue to rise
+|accessdate=22 January 2008
+|author= Kristin Churchill
+|publisher=Great American Publishing
+|archiveurl = http://web.archive.org/web/20061016080320/http://www.fruitgrowersnews.com/pages/2004/issue04_10/04_10_ChinaJuice.html |archivedate = 16 October 2006}}</ref>
+
+Most of Australia's apple production is for domestic consumption. Imports from New Zealand have been disallowed under quarantine regulations for fireblight since 1921.<ref>{{cite web
+|url= http://www.iht.com/articles/2005/08/08/bloomberg/sxfruit.php
+|title= Fruit ban rankles New Zealand – Australian apple growers say risk of disease justifies barriers
+|accessdate=9 August 2005
+|author= Gavin Evans
+|work=International Herald Tribune
+|date=9 August 2005
+}}{{Dead link|date=April 2014}}</ref>
+
+Other countries with a significant production are [[Brazil]], [[Argentina]], [[Ukraine]], [[Germany]] and [[South Africa]].
+==Nutrition==
+{{nutritional value | name=Apples, with skin (edible parts)
+| water=85.56 g
+| kJ=218
+| protein=0.26 g
+| fat=0.17 g
+| carbs=13.81 g
+| fiber=2.4 g
+| sugars=10.39
+| calcium_mg=6
+| iron_mg=0.12
+| magnesium_mg=5
+| phosphorus_mg=11
+| potassium_mg=107
+| sodium_mg=1
+| zinc_mg=0.04
+| manganese_mg=0.035
+| opt1n=[[Fluoride]]
+| opt1v=3.3 µg
+| vitC_mg=4.6
+| thiamin_mg=0.017
+| riboflavin_mg=0.026
+| niacin_mg=0.091
+| pantothenic_mg=0.061
+| vitB6_mg=0.041
+| folate_ug=3
+| vitA_ug=3
+| betacarotene_ug=27
+| lutein_ug=29
+| vitE_mg=0.18
+| vitK_ug=2.2
+| source_usda = 1
+| note=[http://ndb.nal.usda.gov/ndb/search/list?qlookup=09003&format=Full Link to USDA Database entry]
+}}
+
+According to the [[United States Department of Agriculture]], a typical apple serving weighs 242 grams and contains 126 calories with significant [[dietary fiber]] and modest [[vitamin C]] content, with otherwise a generally low content of [[essential nutrients]] (table, right).<ref>{{cite web|url=http://nutritiondata.self.com/facts/fruits-and-fruit-juices/1809/2 |title=Nutrition Facts, Apples, raw, with skin [Includes USDA commodity food A343]
+ |publisher=Nutritiondata.com |accessdate=3 January 2013}}</ref>
+
+===Phytochemicals===
+Apple peels contain various [[phytochemical]]s with unknown nutritional value,<ref name=J1>{{cite journal
+| title = Apple phytochemicals and their health benefits
+| journal = Nutrition journal
+| publisher = Department of Food Science and Institute of Comparative and Environmental Toxicology
+| location = Cornell University, Ithaca, New York 14853-7201 USA
+|date=May 2004
+| url = http://www.nutritionj.com/content/3/1/5
+| doi = 10.1186/1475-2891-3-5
+| volume = 3
+| page = 5
+| pmid = 15140261
+
+| last1 = Boyer
+| first1 = Jeanelle
+| last2 = Liu
+| first2 = RH
+| issue =1
+| pmc = 442131
+}}</ref> including [[quercetin]], [[epicatechin]], and [[procyanidin]] B2.<ref name=J1/> Preliminary research is investigating whether nutrients and/or phytochemicals in apples may affect the risk of some types of [[cancer]].<ref>{{cite pmid|18855307}}</ref>
+
+==Human consumption==
+{{See also| Cooking apple|Cider apple}}
+[[File:Apple stark s.jpg|thumb|upright|An apple core, the remainder of an apple that has been mostly eaten]]
+
+Apples are often eaten raw. The whole fruit including the skin is suitable for human consumption except for the seeds, which may affect some consumers.{{Citation needed|date=August 2014}} The core is often not eaten and is discarded. Varieties bred for raw consumption are termed dessert or [[table apple]]s.
+
+Apples can be canned or juiced. They are milled or pressed to produce [[apple juice]], which may be drunk unfiltered (called [[apple cider]] in North America), or filtered. The juice can be [[fermentation (food)|fermented]] to make [[cider]] (called hard cider in North America), [[ciderkin]], and [[vinegar]]. Through [[distillation]], various alcoholic beverages can be produced, such as [[applejack (beverage)|applejack]], [[Calvados (spirit)|Calvados]],<ref name=food/> and [[apfelwein]]. [[Apple seed oil]]<ref>{{cite journal|doi = 10.2202/1556-3758.1283|title = Proximate Composition of the Apple Seed and Characterization of Its Oil|year = 2007|last1 = Yu|first1 = Xiuzhu|last2 = Van De Voort|first2 = Frederick R.|last3 = Li|first3 = Zhixi|last4 = Yue|first4 = Tianli|journal = International Journal of Food Engineering|volume = 3|issue = 5}}</ref>
+and [[pectin]] may also be produced.
+
+===Popular uses===
+Apples are an important ingredient in many desserts, such as [[apple pie]], apple [[crumble]], [[apple crisp]] and [[apple cake]]. They are often eaten [[baked]] or [[stewed]], and they can also be dried and eaten or reconstituted (soaked in water, alcohol or some other liquid) for later use. When cooked, some apple varieties easily form a puree known as [[apple sauce]]. Apples are also made into [[apple butter]] and apple jelly. They are also used (cooked) in meat dishes.
+* In the UK, a [[toffee apple]] is a traditional confection made by coating an apple in hot [[toffee]] and allowing it to cool. Similar treats in the U.S. are [[candy apple]]s (coated in a hard shell of crystallized sugar syrup), and [[caramel apples]], coated with cooled [[caramel]].
+* Apples are eaten with honey at the Jewish New Year of [[Rosh Hashanah]] to symbolize a sweet new year.<ref name=food/>
+* Farms with apple orchards may open them to the public, so consumers may themselves pick the apples they will purchase.<ref name=food>{{cite web
+|url= http://www.bestapples.com/varieties/varieties_foodsafety.shtml
+|title= Apples
+|accessdate=22 January 2008
+|publisher=Washington State Apple Advertising Commission
+|archiveurl= http://web.archive.org/web/20071220123407/http://www.bestapples.com/varieties/varieties_foodsafety.shtml <!--Added by H3llBot-->
+|archivedate= 20 December 2007
+}}</ref>
+
+Sliced apples turn brown with exposure to air due to the conversion of natural phenolic substances into [[melanin]] upon exposure to [[oxygen]].<ref name=J1/> Different cultivars vary in their propensity to brown after slicing<ref>[http://www.nytimes.com/2010/11/23/science/23qna.html?ref=science The Brown Apple]. // The New York Times, 22 November 2010</ref> and the [[genetically engineered]] [[Arctic Apples]] do not brown. Sliced fruit can be treated with [[acidulated water]] to prevent this effect.<ref name=J1/><!-- NO mention melanin oxidation or acidualated water in this referenced article -->
+
+===Organic production===
+[[organic farming|Organic]] apples are commonly produced in the United States.<ref name=organic>{{cite web
+|url= http://attra.ncat.org/attra-pub/PDF/omapple.pdf
+|title= Considerations in organic apple production
+|accessdate=24 January 2008
+|last= Ames
+|first= Guy
+|date=July 2001
+|format= PDF
+|publisher=National Sustainable Agriculture Information Service
+}}</ref> Organic production is difficult in Europe, though a few orchards have done so with commercial success,<ref name=organic/> using disease-resistant cultivars. A light coating of [[kaolin]], which forms a physical barrier to some pests, also helps prevent apple sun scalding.<ref name=app4/><ref name=organic/>
+
+===Allergy===
+One form of apple allergy, often found in northern Europe, is called birch-apple syndrome, and is found in people who are also allergic to [[birch]] [[pollen]].<ref name=EU/> Allergic reactions are triggered by a protein in apples that is similar to birch pollen, and people affected by this protein can also develop allergies to other fruits, nuts, and vegetables. Reactions, which entail [[oral allergy syndrome]] (OAS), generally involve itching and inflammation of the mouth and throat,<ref name=EU/> but in rare cases can also include life-threatening [[anaphylaxis]].<ref>Landau, Elizabeth, [http://articles.cnn.com/2009-04-08/health/oral.allergy.syndrome_1_allergy-shots-pollen-allergies-oral-allergy-syndrome?_s=PM:HEALTH Oral allergy syndrome may explain mysterious reactions], 8 April 2009, ''CNN Health'', accessed 17 October 2011</ref> This reaction only occurs when raw fruit is consumed—the allergen is neutralized in the cooking process. The variety of apple, maturity and storage conditions can change the amount of allergen present in individual fruits. Long storage times can increase the amount of proteins that cause birch-apple syndrome.<ref name=EU>{{cite web|url=http://foodallergens.ifr.ac.uk/food.lasso?selected_food=2#summary|title=General Information – Apple|publisher=Informall|accessdate=17 October 2011|archiveurl=http://wayback.archive.org/web/20120723201454/http://foodallergens.ifr.ac.uk/food.lasso?selected_food=2|archivedate=23 July 2012}}</ref>
+
+[[File:MIN Rungis pommes.jpg|Different kinds of apple [[List of apple cultivars|cultivars]] in a  wholesale food market|thumb|right]]
+In other areas, such as the Mediterranean, some individuals have adverse reactions to apples because of their similarity to peaches.<ref name=EU/> This form of apple allergy also includes OAS, but often has more severe symptoms, such as vomiting, abdominal pain and [[urticaria]], and can be life-threatening. Individuals with this form of allergy can also develop reactions to other fruits and nuts. Cooking does not break down the protein causing this particular reaction, so affected individuals can eat neither raw nor cooked apples. Freshly harvested, over-ripe fruits tend to have the highest levels of the protein that causes this reaction.<ref name=EU/>
+
+Breeding efforts have yet to produce a [[hypoallergenic]] fruit suitable for either of the two forms of apple allergy.<ref name=EU/>
+
+=== Toxicity of seeds ===
+The seeds of apples contain small amounts of [[amygdalin]], a sugar and [[cyanide]] compound known as a [[Cyanogenic glycoside#Cyanogenic glycosides|cyanogenic glycoside]]. Ingesting small amounts of apple seeds will cause no ill effects, but in extremely large doses can cause adverse reactions. There is only one known case of fatal cyanide poisoning from apple seeds; in this case the individual chewed and swallowed one [[Cup (unit)|cup]] of seeds. It may take several hours before the poison takes effect, as cyanogenic glycosides must be [[hydrolyzed]] before the cyanide ion is released.<ref name="NelsonShih2007">{{cite book|author1=Lewis S. Nelson|author2=Richard D. Shih|author3=Michael J. Balick|title=Handbook of poisonous and injurious plants|url=http://books.google.com/books?id=-J-YxItyrHEC&pg=PA211|accessdate=13 April 2013|year=2007|publisher=Springer|isbn=978-0-387-33817-0|pages=211–212}}</ref>
+
+
+==Proverbs==
+[[File:Pink lady and cross section.jpg|thumb|left|288px|An apple's stem end, side, and interior]]
+The [[proverb]] "''An apple a day keeps the doctor away''", addressing the health effects of the fruit, dates from 19th century Wales according to Caroline Taggart, author of “An Apple a Day: Old-Fashioned Proverbs and Why They Still Work.”  The original phrase, Taggart said, was, ‘‘Eat an apple on going to bed, and you’ll keep the doctor from earning his bread.” In the 19th century and early 20th, the phrase evolved to “an apple a day, no doctor to pay” and “an apple a days sends the doctor away,” while the phrasing now commonly used was first recorded in 1922.<ref>{{cite book|last=Pollan|first=Michael|title=The Botany of Desire: a Plant's-eye View of the World|year=2001|ISBN=0375501290|page=22, cf. p. 9 & 50|publisher=Random House|url=http://www.pbs.org/thebotanyofdesire/|accessdate=3 January 2015}}</ref>
+{{-}}
+
+==See also==
+* [[Applecrab]], apple-crabapple hybrids with the good eating qualities of the apple parents
+* [[Cooking apple]]
+* [[List of apple dishes]]
+
+==References==
+{{reflist|30em|refs=<ref name="Architecture and size relations: an essay on the apple (Malus x domestica, Rosaceae) tree">{{cite journal|last=Lauri|first=Pierre-éric|author2=Karen Maguylo |author3=Catherine Trottier |year=2006|title=Architecture and size relations: an essay on the apple (Malus x domestica, Rosaceae) tree|journal=American Journal of Botany |publisher=Botanical Society of America, Inc. |issue=93|pages=357–368|doi=10.3732/ajb.93.3.357|volume=93}}</ref><ref name=Coart>Coart, E., Van Glabeke, S., De Loose, M., Larsen, A.S., Roldán-Ruiz, I. 2006. Chloroplast diversity in the genus ''Malus'': new insights into the relationship between the European wild apple (''Malus sylvestris'' (L.) Mill.) and the domesticated apple (''Malus domestica'' Borkh.). ''Mol. Ecol.'' '''15(8)''': 2171–82.</ref><ref name="autogenerated1">[[H. R. Ellis Davidson|Ellis Davidson, H. R.]] (1965) ''Gods And Myths Of Northern Europe'', page 165 to 166. ISBN 0-14-013627-4</ref><ref name=DAVIDSON165-166>Ellis Davidson, H. R. (1965) ''Gods And Myths Of Northern Europe'', page 165 to 166. [[Penguin Books]] ISBN 0-14-013627-4</ref><ref name=DAVIDSONROLES146-147>Ellis Davidson, H. R. (1998) ''Roles of the Northern Goddess'', page 146 to 147. [[Routledge]] ISBN 0-415-13610-5</ref><ref name="app3">{{cite book|last=Sauer|first=Jonathan D.|title=Historical Geography of Crop Plants: A Select Roster|publisher=CRC Press|year=1993|page=109|isbn=0-8493-8901-1}}</ref><ref name="book7">{{cite book|last=Macrone|first=Michael |author2=Tom Lulevitch|others=Tom Lulevitch|title=Brush up your Bible!|publisher=Random House Value|year=1998|isbn=0-517-20189-5|oclc=38270894}}</ref><ref name="Crops & Gardening - Apples of Antiquity">{{cite journal|last=Weaver|first=Sue |date=June–July 2003|title=Crops & Gardening – Apples of Antiquity|journal=Hobby Farms magazine|publisher=BowTie, Inc|url=http://www.hobbyfarms.com/crops-and-gardening/fruit-crops-apples-14897.aspx}}</ref><ref name="Apples in Ecuador">{{cite web | url=http://www.actahort.org/books/310/310_17.htm | title=Apples in Ecuador|publisher=Acta Hort|accessdate=17 July 2008}}</ref><ref name="Symposium on Growth Regulators in Fruit Production">{{cite book|last=S. Sansavini |title=Symposium on Growth Regulators in Fruit Production |publisher=Acta Horticulturae|date=1 July 1986 |edition=International|page=179|chapter=The chilling requirement in apple and its role in regulating Time of flowering in spring in cold-Winter Climate|isbn=978-90-6605-182-9 }}</ref><ref name="Food Science Australia Fact Sheet: Refrigerated storage of perishable foods">{{cite web | accessdate =25 May 2007 | url = http://www.foodscience.csiro.au/refrigerated.htm | title = Food Science Australia Fact Sheet: Refrigerated storage of perishable foods | date = February 2005 | publisher = Food Science Australia }}</ref><!--<ref name="Modeling and Simulation: Proceedings of the Annual Pittsburgh Conference">{{cite book|last=Pittsburgh Section, University of Pittsburgh School of Engineering, School of Engineering, Institute of Electrical and Electronics Engineers Pittsburgh Section, Instrument Society of America, Instrument Society of America Pittsburgh Section, University of Pittsburgh|title=Modeling and Simulation: Proceedings of the Annual Pittsburgh Conference|publisher=Instrument Society of America|year=1981}}</ref>--><ref name="pest4">{{cite book|last=Lowther|first=Granville |author2=William Worthington|title=The Encyclopedia of Practical Horticulture: A Reference System of Commercial Horticulture, Covering the Practical and Scientific Phases of Horticulture, with Special Reference to Fruits and Vegetables|publisher=The Encyclopedia of horticulture corporation}}</ref>
+
+}}
+{{Grocers}}
+
+==Further reading==
+;Books
+* Browning, F. (1999). ''Apples: The Story of the Fruit of Temptation''. North Point Press.  ISBN 978-0-86547-579-3
+* Mabberley, D.J. / Juniper, B.E. (2009). ''The Story of the Apple''. Timber Press.  ISBN 978-1-60469-172-6
+;Review articles on possible health benefits
+
+== External links ==
+{{Sister project links|wikt=apple|v=no|n=no|s=1911 Encyclopædia Britannica/Apple|b=Apples|q=Apples|species=Malus domestica}}
+* [http://www.ifr.ac.uk/info/society/spotlight/apples.htm Apple Facts] from the UK's [[Institute of Food Research]]
+* [http://www.nationalfruitcollection.org.uk/ National Fruit Collection] (UK)
+* [http://gvsu.cdmhost.com/cdm4/results.php?CISOOP1=all&CISOBOX1=&CISOFIELD1=CISOSEARCHALL&CISOOP2=exact&CISOBOX2=peticolas%2C%20theodore&CISOFIELD2=CISOSEARCHALL&CISOOP3=any&CISOBOX3=&CISOFIELD3=CISOSEARCHALL&CISOOP4=none&CISOBOX4=&CISOFIELD4=CISOSEARCHALL&CISOROOT=/p4103coll3&t=a Grand Valley State University digital collections]- diary of Ohio fruit farmer Theodore Peticolas, 1863
+{{Apples}}
+{{Crabapple}}
+[[Category:Apples|*]]
+[[Category:Malus]]
+[[Category:Plants described in 1803]]
+[[Category:Plants with sequenced genomes]]
