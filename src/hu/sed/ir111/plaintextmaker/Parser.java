@@ -115,23 +115,9 @@ public abstract class Parser {
 		String wikiContent = new String(Files.readAllBytes(filePath));		
 		
 		MarkupParser markupParser = new MarkupParser();
+		markupParser.setMarkupLanguage(new MediaWikiLanguage());
 		
-		//markupParser.setMarkupLanguage(new ConfluenceLanguage());
-		//markupParser.setMarkupLanguage(new HtmlLanguage());
-		//markupParser.setMarkupLanguage(new MarkdownLanguage());
-		markupParser.setMarkupLanguage(new MediaWikiLanguage()); //best
-		//markupParser.setMarkupLanguage(new TextileLanguage());
-		//markupParser.setMarkupLanguage(new TracWikiLanguage()); //good
-		//markupParser.setMarkupLanguage(new TWikiLanguage()); //good
-		
-//		String htmlContent = markupParser.parseToHtml(wikiContent);
-//		
-//		FileWriter fw = new FileWriter("converted.html");
-//		fw.write(htmlContent);
-//		fw.flush();
-//		fw.close();
 		return parseHtml(markupParser.parseToHtml(wikiContent));
-		
 	}
 	
 	public static Document parseMarkdown(Path filePath) throws IOException {
