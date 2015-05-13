@@ -17,10 +17,10 @@ import hu.sed.ir111.plaintextmaker.model.TableRow;
 import java.io.*;
 import java.nio.file.Files;
 import java.nio.file.Path;
-import java.util.HashMap;
+import java.util.*;
+import java.util.regex.Pattern;
 
 import org.eclipse.mylyn.wikitext.core.parser.MarkupParser;
-import org.eclipse.mylyn.wikitext.markdown.core.MarkdownLanguage;
 import org.eclipse.mylyn.wikitext.mediawiki.core.MediaWikiLanguage;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Node;
@@ -45,9 +45,10 @@ public abstract class Parser {
 				Chunk chunk;
 				//System.out.println(node);
 				if(node instanceof TextNode) {
-					if(((TextNode) node).text().equals(" "))
+					String text = ((TextNode)node).text();
+					if(text.equals(" "))
 						return;
-					chunk = new PlainText(((TextNode) node).text());
+					chunk = new PlainText(Pattern.compile("</?ref[^>]*>").matcher(text).replaceAll(""));
 				}
 				else {
 					switch(node.nodeName()) {

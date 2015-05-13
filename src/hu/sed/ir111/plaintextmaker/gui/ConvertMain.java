@@ -1,5 +1,4 @@
-import hu.sed.ir111.plaintextmaker.gui.*;
-
+package hu.sed.ir111.plaintextmaker.gui;
 import java.awt.Dimension;
 import java.awt.GridLayout;
 import java.awt.Toolkit;
@@ -43,11 +42,6 @@ public class ConvertMain extends JFrame implements MouseListener
 
 		win.setVisible(false);
 		}
-	}
-
- 	public static void main(String args[])
- 	{
-		new ConvertMain();
 	}
 
 	@Override

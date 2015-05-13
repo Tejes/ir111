@@ -1,25 +1,3 @@
-{{hatnote|This article is about the fruit. For the technology company, see [[Apple Inc.]] For other uses, see [[Apple (disambiguation)]] or [[Apple tree (disambiguation)]].}}
-{{Use dmy dates|date=January 2015}}
-{{pp-semi-indef}}{{pp-move-indef}}
-{{good article}}
-{{taxobox
-|name = Apple
-|image = Red Apple.jpg
-|image_caption = 
-|regnum = [[Plant]]ae
-|unranked_divisio = [[Angiosperms]]
-|unranked_classis = [[Eudicots]]
-|unranked_ordo = [[Rosids]]
-|ordo = [[Rosales]]
-|familia = [[Rosaceae]]
-|genus = ''[[Malus]]''
-|species = '''''M. domestica'''''
-|binomial = ''Malus domestica''
-|binomial_authority = [[Moritz Balthasar Borkhausen|Borkh.]], 1803
-|synonyms = ''Malus communis'' <small>Desf.</small><br/>
-''Malus pumila'' <small>auct.</small><ref>{{GRIN | name = ''Malus pumila'' auct. | id = 410495 | accessdate = 4 January 2012}}</ref><br/>
-''Pyrus malus'' <small>L.</small><ref>{{GRIN | name = ''Pyrus malus'' L. | id = 30530 | accessdate = 29 January 2012}}</ref>
-|}}
 The '''apple tree''' (''Malus domestica'') is a [[deciduous]] [[tree]] in the [[Rosaceae|rose family]] best known for its sweet, [[pome|pomaceous]] [[fruit]], the '''apple'''. It is [[agriculture|cultivated]] worldwide as a [[fruit tree]], and is the most widely grown species in the [[genus]] ''[[Malus]]. ''The tree originated in [[Central Asia]], where its wild ancestor, ''[[Malus sieversii]]'', is still found today. Apples have been grown for thousands of years in Asia and Europe, and were brought to North America by European colonists. Apples have [[religion|religious]] and [[mythology|mythological]] significance in many cultures, including [[Norse mythology|Norse]], [[Greek mythology|Greek]] and European Christian traditions.
 
 Apple trees are large if grown from seed, but small if grafted onto roots (rootstock). There are more than 7,500 known [[List of apple cultivars|cultivars of apples]], resulting in a range of desired characteristics. Different cultivars are bred for various tastes and uses, including  [[cooking apple|cooking]], eating raw and [[apple cider|cider production]]. Apples are generally propagated by [[grafting]], although wild apples grow readily from seed. Trees and fruit are prone to a number of [[fungus|fungal]], [[bacteria]]l and pest problems, which can be controlled by a number of [[organic farming|organic]] and non-organic means. In 2010, the fruit's [[genome]] was decoded as part of research on disease control and selective breeding in apple production.
