@@ -1,6 +1,6 @@
-package hu.sed.ir111.plaintextmaker;
+package hu.sed.ir111.plaintextmaker.model;
 
-import org.apache.commons.lang3.*;
+import hu.sed.ir111.plaintextmaker.StringUtils;
 
 /**
  * Represents a single line header text. It will be underlined with === or --- depending on the HeaderKind passed in
@@ -28,6 +28,7 @@ public class Header extends Chunk {
 	public String toString() {
 		StringBuilder sb = new StringBuilder();
 		int len = super.toString().length();
+		sb.append(EOL);
 		if(kind == HeaderKind.TITLE) {
 			sb.append(StringUtils.repeat(' ', (COLUMN_WIDTH - len) / 2));
 			sb.append(super.toString());

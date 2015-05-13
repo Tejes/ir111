@@ -1,6 +1,20 @@
 package hu.sed.ir111.plaintextmaker;
 
-import java.io.IOException;
+import hu.sed.ir111.plaintextmaker.model.Chunk;
+import hu.sed.ir111.plaintextmaker.model.Document;
+import hu.sed.ir111.plaintextmaker.model.Emphatic;
+import hu.sed.ir111.plaintextmaker.model.Header;
+import hu.sed.ir111.plaintextmaker.model.HeaderKind;
+import hu.sed.ir111.plaintextmaker.model.Link;
+import hu.sed.ir111.plaintextmaker.model.List;
+import hu.sed.ir111.plaintextmaker.model.ListKind;
+import hu.sed.ir111.plaintextmaker.model.Paragraph;
+import hu.sed.ir111.plaintextmaker.model.PlainText;
+import hu.sed.ir111.plaintextmaker.model.Table;
+import hu.sed.ir111.plaintextmaker.model.TableCell;
+import hu.sed.ir111.plaintextmaker.model.TableRow;
+
+import java.io.*;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.HashMap;
@@ -12,6 +26,7 @@ import org.jsoup.Jsoup;
 import org.jsoup.nodes.Node;
 import org.jsoup.nodes.TextNode;
 import org.jsoup.select.NodeVisitor;
+import org.markdown4j.*;
 
 public abstract class Parser {
 	
@@ -53,7 +68,8 @@ public abstract class Parser {
 							chunk = new Paragraph();
 							break;
 						case "ul":
-							chunk = new List(ListKind.ASTERISK);
+						case "ol":
+							chunk = new List(node.nodeName().equals("ol") ? ListKind.NUMERAL : ListKind.ASTERISK);
 							
 							if(!node.attr("style").isEmpty()) {
 								((List)chunk).setKind(extractListStyle(node.attr("style")));
@@ -82,6 +98,18 @@ public abstract class Parser {
 						case "u":
 							chunk = new Emphatic();
 							break;
+						case "table":
+							chunk = new Table();
+							break;
+						case "tr":
+							chunk = new TableRow();
+							break;
+						case "th":
+							chunk = new TableCell(true);
+							break;
+						case "td":
+							chunk = new TableCell();
+							break;
 						default:
 							return;
 					}
@@ -90,13 +118,13 @@ public abstract class Parser {
 				if(node.parent() == null) {
 					document.addChunk(chunk);
 				}
-				else if(!map.containsKey(node.parent())) {  //az õsnek nincs chunkja -> vagy gyökér, vagy nem kezelt tag (span, div, stb)
-					while(node != null && !map.containsKey(node.parent())) { //megkeressük azt az õst aminek van chunkja, vagy null-t kapunk ha gyökérhez értünk
+				else if(!map.containsKey(node.parent())) {  //az ï¿½snek nincs chunkja -> vagy gyï¿½kï¿½r, vagy nem kezelt tag (span, div, stb)
+					while(node != null && !map.containsKey(node.parent())) { //megkeressï¿½k azt az ï¿½st aminek van chunkja, vagy null-t kapunk ha gyï¿½kï¿½rhez ï¿½rtï¿½nk
 						node = node.parent();
 					}
-					if(node == null)  //gyökérnél vagyunk, a dokumentum lesz az õs
+					if(node == null)  //gyï¿½kï¿½rnï¿½l vagyunk, a dokumentum lesz az ï¿½s
 						document.addChunk(chunk);
-					else   //megtaláltuk a legközelebbi õsét amihez van chunk
+					else   //megtalï¿½ltuk a legkï¿½zelebbi ï¿½sï¿½t amihez van chunk
 						map.get(node.parent()).addChild(chunk);
 				}
 				else {
@@ -107,30 +135,40 @@ public abstract class Parser {
 		return document;
 	}
 	
-	public static Document parseHtml(Path filePath) throws IOException {
+		
+		public static Document parseHtml(Path filePath) throws IOException {
 		return parseHtml(new String(Files.readAllBytes(filePath)));
-	}
+		}
 	
-	public static Document parseWiki(Path filePath) throws IOException {
-		String wikiContent = new String(Files.readAllBytes(filePath));		
-		
-		MarkupParser markupParser = new MarkupParser();
-		markupParser.setMarkupLanguage(new MediaWikiLanguage());
-		
-		return parseHtml(markupParser.parseToHtml(wikiContent));
-	}
+		public static Document parseWiki(Path filePath) throws IOException {
+			String wikiContent = new String(Files.readAllBytes(filePath));		
+			FileWriter rw=new FileWriter("KoztesWiki.html");
+			MarkupParser markupParser = new MarkupParser();
+			markupParser.setMarkupLanguage(new MediaWikiLanguage());
+			rw.write(markupParser.parseToHtml(wikiContent));
+			rw.flush();
+			rw.close();
+			return parseHtml(markupParser.parseToHtml(wikiContent));
+		}
 	
-	public static Document parseMarkdown(Path filePath) throws IOException {
-		String mdContent = new String(Files.readAllBytes(filePath));
-		
-		MarkupParser markupParser = new MarkupParser();
-		markupParser.setMarkupLanguage(new MarkdownLanguage());
-		
-		return parseHtml(markupParser.parseToHtml(mdContent));
-	}
+		public static Document parseMarkdown(Path filePath) throws IOException {
+			//String mdContent = new String(Files.readAllBytes(filePath));
+			FileWriter rw=new FileWriter("KoztesMarkdn.html");
+			//System.out.println(mdContent);
+			//MarkupParser markupParser = new MarkupParser();
+			//markupParser.setMarkupLanguage(new MarkdownLanguage());
+			//rw.write(markupParser.parseToHtml(mdContent));
+			String html = new Markdown4jProcessor().process(new String(Files.readAllBytes(filePath)));
+			rw.write(html);
+			//System.out.println(markupParser.parseToHtml(mdContent));
+			rw.flush();
+			rw.close();
+			return parseHtml(html);
+
+		}
 	
 	private static ListKind extractListStyle(String str) {
-		//kicsit favágó, de ez van
+		//kicsit favï¿½gï¿½, de ez van
 		if(str.contains("square") || str.contains("disc") || str.contains("circle"))
 			return ListKind.ASTERISK;
 		if(str.contains("lower-alpha") || str.contains("lower-greek") || str.contains("lower-latin"))
@@ -143,6 +181,6 @@ public abstract class Parser {
 			return ListKind.UPPER_ROMAN;
 		if(str.contains("list-style-type: none") || str.contains("listy-style: none") || str.contains("list-style:none") || str.contains("list-style-type:none") || str.equals("none"))
 			return ListKind.NONE;
-		return ListKind.NUMERAL;  //alapeset: minden szám és ha nincs megadva semmi
+		return ListKind.NUMERAL;  //alapeset: minden szï¿½m ï¿½s ha nincs megadva semmi
 	}
 }

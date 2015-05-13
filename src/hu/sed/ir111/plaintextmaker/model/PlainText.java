@@ -1,4 +1,4 @@
-package hu.sed.ir111.plaintextmaker;
+package hu.sed.ir111.plaintextmaker.model;
 
 public class PlainText extends Chunk {
 	private String text;

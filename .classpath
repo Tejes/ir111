@@ -13,7 +13,7 @@
 	<classpathentry kind="lib" path="jars/org.eclipse.mylyn.wikitext.textile.core_2.4.0.N20150312-2106.jar"/>
 	<classpathentry kind="lib" path="jars/org.eclipse.mylyn.wikitext.tracwiki.core_2.4.0.N20150309-1623.jar"/>
 	<classpathentry kind="lib" path="jars/org.eclipse.mylyn.wikitext.twiki.core_2.4.0.N20150309-1638.jar"/>
-	<classpathentry kind="lib" path="jars/commons-lang3-3.4.jar"/>
 	<classpathentry kind="lib" path="jars/jsoup-1.8.2.jar"/>
+	<classpathentry kind="lib" path="jars/markdown4j-2.2.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

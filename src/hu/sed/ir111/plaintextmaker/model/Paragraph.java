@@ -1,4 +1,4 @@
-package hu.sed.ir111.plaintextmaker;
+package hu.sed.ir111.plaintextmaker.model;
 
 public class Paragraph extends Chunk {
 	public Paragraph() {
@@ -14,6 +14,6 @@ public class Paragraph extends Chunk {
 	}
 	
 	public String toString() {
-		return EOL + super.toString() + EOL;
+		return super.toString() + EOL + EOL;
 	}
 }

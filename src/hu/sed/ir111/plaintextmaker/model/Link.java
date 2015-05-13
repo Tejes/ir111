@@ -1,4 +1,4 @@
-package hu.sed.ir111.plaintextmaker;
+package hu.sed.ir111.plaintextmaker.model;
 
 /**
  * Represents hiperlinks. The link is printed in <> brackets after the text

@@ -1,4 +1,4 @@
-package hu.sed.ir111.plaintextmaker;
+package hu.sed.ir111.plaintextmaker.model;
 import java.io.IOException;
 import java.util.*;
 

@@ -1,4 +1,4 @@
-package hu.sed.ir111.plaintextmaker;
+package hu.sed.ir111.plaintextmaker.model;
 
 /**
  * Represents an emphatised piece of text, like bold, italic or underlined. Prints out *text* in default  

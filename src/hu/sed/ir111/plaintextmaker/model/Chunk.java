@@ -1,7 +1,7 @@
 /**
  * 
  */
-package hu.sed.ir111.plaintextmaker;
+package hu.sed.ir111.plaintextmaker.model;
 
 import java.util.*;
 
@@ -11,7 +11,7 @@ import java.util.*;
  *
  */
 public class Chunk {
-	public static final String EOL = System.getProperty("line.separator");
+	public static final String EOL = System.lineSeparator();
 	public static final int COLUMN_WIDTH = 80;
 	protected LinkedList<Chunk> children;
 	

@@ -1,8 +1,8 @@
-package hu.sed.ir111.plaintextmaker;
+package hu.sed.ir111.plaintextmaker.model;
+
+import hu.sed.ir111.plaintextmaker.StringUtils;
 
 import java.util.Iterator;
-
-import org.apache.commons.lang3.StringUtils;
 
 public class List extends Chunk {
 	private ListKind kind;
@@ -31,6 +31,7 @@ public class List extends Chunk {
 			maxLength = (int)Math.log10(children.size()) + 1;
 		}
 		
+		sb.append(EOL);
 		for(Chunk child : children) {
 			switch(kind) {
 				case LOWER_ROMAN:
@@ -74,6 +75,11 @@ public class List extends Chunk {
 		return sb.toString();
 	}
 	
+	/**
+	 * @author sokris
+	 * @param number
+	 * @return
+	 */
 	private static String makeRomanNumber(int number){
 		String result = "";
 		while (number>=100){
