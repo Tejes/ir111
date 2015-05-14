@@ -5,9 +5,7 @@ package hu.sed.ir111.plaintextmaker;
  * @author keletim
  *
  */
-public class StringUtils {
-	private StringUtils() {}
-	
+public abstract class StringUtils {	
 	public static String repeat(String str, int n) {
 		StringBuilder sb = new StringBuilder();
 		for(int i = 0; i < n; i++) {

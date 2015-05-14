@@ -28,6 +28,11 @@ import org.jsoup.nodes.TextNode;
 import org.jsoup.select.NodeVisitor;
 import org.markdown4j.*;
 
+/**
+ * Not instantiable class providing static methotds for parsing html, markdown, wikitext into our DOM
+ * @author keletim
+ *
+ */
 public abstract class Parser {
 	
 	public static Document parseHtml(String html) throws IOException {
@@ -48,7 +53,7 @@ public abstract class Parser {
 					String text = ((TextNode)node).text();
 					if(text.equals(" "))
 						return;
-					chunk = new PlainText(Pattern.compile("</?ref[^>]*>").matcher(text).replaceAll(""));
+					chunk = new PlainText(Pattern.compile("</?[^>]*>").matcher(text).replaceAll(""));
 				}
 				else {
 					switch(node.nodeName()) {
@@ -71,7 +76,6 @@ public abstract class Parser {
 						case "ul":
 						case "ol":
 							chunk = new List(node.nodeName().equals("ol") ? ListKind.NUMERAL : ListKind.ASTERISK);
-							
 							if(!node.attr("style").isEmpty()) {
 								((List)chunk).setKind(extractListStyle(node.attr("style")));
 							}
@@ -119,13 +123,13 @@ public abstract class Parser {
 				if(node.parent() == null) {
 					document.addChunk(chunk);
 				}
-				else if(!map.containsKey(node.parent())) {  //az �snek nincs chunkja -> vagy gy�k�r, vagy nem kezelt tag (span, div, stb)
-					while(node != null && !map.containsKey(node.parent())) { //megkeress�k azt az �st aminek van chunkja, vagy null-t kapunk ha gy�k�rhez �rt�nk
+				else if(!map.containsKey(node.parent())) {  //az ősnek nincs chunkja -> vagy gyökér, vagy nem kezelt tag (span, div, stb)
+					while(node != null && !map.containsKey(node.parent())) { //megkeressük azt az őst aminek van chunkja, vagy null-t kapunk ha gyökérhez értünk
 						node = node.parent();
 					}
-					if(node == null)  //gy�k�rn�l vagyunk, a dokumentum lesz az �s
+					if(node == null)  //gyökérnél vagyunk, a dokumentum lesz az ős
 						document.addChunk(chunk);
-					else   //megtal�ltuk a legk�zelebbi �s�t amihez van chunk
+					else   //megtaláltuk a legközelebbi ősét amihez van chunk
 						map.get(node.parent()).addChild(chunk);
 				}
 				else {
@@ -182,6 +186,6 @@ public abstract class Parser {
 			return ListKind.UPPER_ROMAN;
 		if(str.contains("list-style-type: none") || str.contains("listy-style: none") || str.contains("list-style:none") || str.contains("list-style-type:none") || str.equals("none"))
 			return ListKind.NONE;
-		return ListKind.NUMERAL;  //alapeset: minden sz�m �s ha nincs megadva semmi
+		return ListKind.NUMERAL;  //alapeset: minden szám és ha nincs megadva semmi
 	}
 }
